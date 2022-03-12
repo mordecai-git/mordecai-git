@@ -1,8 +1,8 @@
 - 👋 Hi, I’m Mordecai Godwin
-- 👀 I’m interested in Backend Developement wish c#
-- 🌱 I’m currently learning Microservices in .NET
-- 💞️ I’m looking to collaborate on Backend Development Projects with C#
-- 📫 How to reach me davidire71@gmail.com
+- 👀 I’m interested in Backend Developement with .NET Core
+- 🌱 I’m currently learning React Js and Flutter
+- 💞️ I’m looking to collaborate on Backend Development Projects with .NET Core and ASP.NET
+- 📫 You can reach me via davidire71@gmail.com
 
 <!---
 mordecai-git/mordecai-git is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
