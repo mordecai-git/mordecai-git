@@ -1,6 +1,6 @@
 - 👋 Hi, I’m Mordecai Godwin
-- 👀 I’m interested in Backend Developement with .NET Core
-- 🌱 I’m currently learning React Js and Flutter
+- 👀 I’m .NET Backend Developer
+- 🌱 I’m currently learning React Js
 - 💞️ I’m looking to collaborate on Backend Development Projects with .NET Core and ASP.NET
 - 📫 You can reach me via davidire71@gmail.com
 
