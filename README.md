@@ -1,6 +1,6 @@
 - 👋 Hi, I’m Mordecai Godwin
 - 👀 I’m .NET Backend Developer
-- 🌱 I’m currently learning React Js
+- 🌱 I’m currently learning Angular
 - 💞️ I’m looking to collaborate on Backend Development Projects with .NET Core and ASP.NET
 - 📫 You can reach me via davidire71@gmail.com
 
