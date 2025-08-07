@@ -1,0 +1,62 @@
+<section id="experience" class="py-20 px-6 bg-dark-800/30">
+  <div class="container mx-auto">
+    <div class="text-center mb-16">
+      <h2 class="text-4xl lg:text-5xl font-bold mb-6">
+        <span class="bg-gradient-to-r from-primary-400 to-primary-600 bg-clip-text text-transparent">
+          {{ 'experience.title' | translate }}
+        </span>
+      </h2>
+    </div>
+
+    <div class="max-w-4xl mx-auto">
+      <div class="relative">
+        <!-- Timeline line -->
+        <div class="absolute left-8 top-0 bottom-0 w-0.5 bg-primary-500"></div>
+
+        <!-- Experience Items -->
+        <div *ngFor="let exp of experiences; let i = index" class="relative mb-12 pl-20">
+          <!-- Timeline dot -->
+          <div class="absolute left-6 w-4 h-4 bg-primary-500 rounded-full border-4 border-dark-900"></div>
+
+          <div
+            class="bg-dark-800/50 backdrop-blur-sm rounded-xl p-8 border border-dark-700 hover:border-primary-500/50 transition-all duration-300">
+            <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between mb-4">
+              <div>
+                <h3 class="text-2xl font-bold text-white mb-2">{{ 'experience.companies.' + exp.company + '.position' |
+                  translate }}</h3>
+                <h4 class="text-xl text-primary-400 mb-2">{{ 'experience.companies.' + exp.company + '.name' | translate
+                  }}</h4>
+              </div>
+              <div class="text-sm text-gray-400 lg:text-right">
+                <div class="bg-primary-500/20 px-3 py-1 rounded-full border border-primary-500/30">
+                  {{ 'experience.companies.' + exp.company + '.period' | translate }}
+                </div>
+              </div>
+            </div>
+
+            <ul class="space-y-3">
+              <li *ngFor="let achievement of exp.achievements; let j = index" class="flex items-start text-gray-300">
+                <svg class="w-5 h-5 text-primary-400 mt-0.5 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd"
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                    clip-rule="evenodd" />
+                </svg>
+                <span>{{ 'experience.companies.' + exp.company + '.achievements[' + j + ']' | translate }}</span>
+              </li>
+            </ul>
+
+            <!-- Technologies used -->
+            <div class="mt-6 pt-6 border-t border-dark-600">
+              <div class="flex flex-wrap gap-2">
+                <span *ngFor="let tech of exp.technologies"
+                  class="px-2 py-1 bg-dark-700 text-primary-300 rounded text-xs border border-dark-600">
+                  {{tech}}
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

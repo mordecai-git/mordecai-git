@@ -1,0 +1,79 @@
+<header class="fixed top-0 left-0 right-0 z-50 bg-dark-900/95 backdrop-blur-sm border-b border-dark-700">
+  <nav class="container mx-auto px-6 py-4">
+    <div class="flex items-center justify-between">
+      <!-- Logo/Name -->
+      <div class="text-xl font-bold text-primary-400">
+        {{ 'header.name' | translate }}
+      </div>
+
+      <!-- Desktop Navigation -->
+      <div class="hidden md:flex items-center space-x-8">
+        <a (click)="scrollToSection('home')"
+          class="text-gray-300 hover:text-primary-400 transition-colors duration-300 cursor-pointer">
+          {{ 'header.home' | translate }}
+        </a>
+        <a (click)="scrollToSection('about')"
+          class="text-gray-300 hover:text-primary-400 transition-colors duration-300 cursor-pointer">
+          {{ 'header.about' | translate }}
+        </a>
+        <a (click)="scrollToSection('experience')"
+          class="text-gray-300 hover:text-primary-400 transition-colors duration-300 cursor-pointer">
+          {{ 'header.experience' | translate }}
+        </a>
+        <a (click)="scrollToSection('projects')"
+          class="text-gray-300 hover:text-primary-400 transition-colors duration-300 cursor-pointer">
+          {{ 'header.projects' | translate }}
+        </a>
+        <a (click)="scrollToSection('contact')"
+          class="text-gray-300 hover:text-primary-400 transition-colors duration-300 cursor-pointer">
+          {{ 'header.contact' | translate }}
+        </a>
+      </div>
+
+      <!-- Language Switcher & Mobile Menu Button -->
+      <div class="flex items-center space-x-4">
+        <div class="relative">
+          <select (change)="switchLanguage($event)"
+            class="bg-dark-800 text-white px-3 py-1 rounded-md border border-dark-600 focus:outline-none focus:ring-2 focus:ring-primary-500">
+            <option value="en">EN</option>
+            <option value="es">ES</option>
+          </select>
+        </div>
+
+        <!-- Mobile menu button -->
+        <button (click)="toggleMobileMenu()" class="md:hidden text-gray-300 hover:text-primary-400 focus:outline-none">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              [attr.d]="isMobileMenuOpen ? 'M6 18L18 6M6 6l12 12' : 'M4 6h16M4 12h16M4 18h16'"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation -->
+    <div class="md:hidden" [class.hidden]="!isMobileMenuOpen">
+      <div class="pt-4 pb-2 space-y-2">
+        <a (click)="scrollToSection('home'); closeMobileMenu()"
+          class="block px-3 py-2 text-gray-300 hover:text-primary-400 transition-colors duration-300 cursor-pointer">
+          {{ 'header.home' | translate }}
+        </a>
+        <a (click)="scrollToSection('about'); closeMobileMenu()"
+          class="block px-3 py-2 text-gray-300 hover:text-primary-400 transition-colors duration-300 cursor-pointer">
+          {{ 'header.about' | translate }}
+        </a>
+        <a (click)="scrollToSection('experience'); closeMobileMenu()"
+          class="block px-3 py-2 text-gray-300 hover:text-primary-400 transition-colors duration-300 cursor-pointer">
+          {{ 'header.experience' | translate }}
+        </a>
+        <a (click)="scrollToSection('projects'); closeMobileMenu()"
+          class="block px-3 py-2 text-gray-300 hover:text-primary-400 transition-colors duration-300 cursor-pointer">
+          {{ 'header.projects' | translate }}
+        </a>
+        <a (click)="scrollToSection('contact'); closeMobileMenu()"
+          class="block px-3 py-2 text-gray-300 hover:text-primary-400 transition-colors duration-300 cursor-pointer">
+          {{ 'header.contact' | translate }}
+        </a>
+      </div>
+    </div>
+  </nav>
+</header>

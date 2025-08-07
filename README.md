@@ -1,59 +1,85 @@
-# MordecaiGit
+# Hey there! 👋 I'm Mordecai Godwin
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.5.
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00D4AA&width=435&lines=Fullstack+Developer;5%2B+Years+Experience;Clean+Code+Enthusiast;Continuous+Learner" alt="Typing SVG" />
+</div>
 
-## Development server
+## 🚀 About Me
 
-To start a local development server, run:
+I'm a passionate **Fullstack Developer** with **5+ years** of experience crafting secure, scalable, and high-performance enterprise applications. When I'm not coding, you'll find me exploring new technologies, mentoring fellow developers, or enjoying a good cup of coffee while debugging the occasional mysterious bug! ☕
 
-```bash
-ng serve
-```
+> *"Writing clean, scalable code isn't just my job—it's my passion. Every line of code is an opportunity to create something amazing."*
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## 💻 What I Do
 
-## Code scaffolding
+- 🏗️ **Architect & Build**: Lead development of complex systems using .NET, Angular, and modern tech stacks
+- 🔐 **Security First**: Implement robust security measures including encryption, RBAC, and secure coding practices
+- 🚀 **Performance Optimization**: Refactor legacy systems achieving up to 25% performance improvements
+- 👥 **Mentorship**: Guide junior developers through code reviews and technical walkthroughs
+- 🔄 **DevOps Integration**: Contribute to CI/CD pipelines and modern deployment strategies
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## 🛠️ Tech Arsenal
 
-```bash
-ng generate component component-name
-```
+### Languages & Frameworks
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+### Databases & Tools
+![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
-```bash
-ng generate --help
-```
+### Currently Exploring
+![AI](https://img.shields.io/badge/GPT%20APIs-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Testing](https://img.shields.io/badge/Test%20Automation-25A162?style=for-the-badge&logo=cypress&logoColor=white)
 
-## Building
 
-To build the project run:
+## 🎯 Current Focus
 
-```bash
-ng build
-```
+- 🔥 Building **MyMonie** - A finance tracking platform with AI-powered budgeting
+- 📚 Strengthening test automation and security practices
+- 🤖 Exploring GPT API integration for smart features
+- 🌍 Contributing to open-source projects
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+## 📊 GitHub Stats
 
-## Running unit tests
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=mordecai-git&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mordecai-git&theme=radical&hide_border=true" alt="GitHub Streak" />
+</div>
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mordecai-git&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
+</div>
 
-```bash
-ng test
-```
+## 🌟 Fun Facts
 
-## Running end-to-end tests
+- 🎯 **Problem Solver**: I genuinely enjoy debugging complex issues (yes, really!)
+- 🌱 **Continuous Learner**: Always exploring new technologies and best practices
+- 🤝 **Team Player**: Love collaborating with diverse teams in Agile environments
+- 🌍 **Remote Work Expert**: 5+ years of successful remote collaboration experience
+- ☕ **Coffee Enthusiast**: Powered by caffeine and clean code
 
-For end-to-end (e2e) testing, run:
+## 🤝 Let's Connect!
 
-```bash
-ng e2e
-```
+I'm always excited to discuss new opportunities, collaborate on interesting projects, or just chat about technology!
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/godwin-mordecai-david)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:davidire71@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](#)
 
-## Additional Resources
+---
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=mordecai-git&color=blueviolet&style=for-the-badge" alt="Profile Views" />
+</div>
+
+<div align="center">
+  
+  *"Code is poetry written in logic. Let's create something beautiful together!"* ✨
+  
+</div>

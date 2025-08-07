@@ -1,0 +1,100 @@
+{
+  "header": {
+    "name": "Mordecai Godwin",
+    "title": "Desarrollador Fullstack",
+    "home": "Inicio",
+    "about": "Acerca de",
+    "experience": "Experiencia",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "greeting": "Hola, soy",
+    "subtitle": "Desarrollador Fullstack experimentado con 5 años entregando aplicaciones empresariales seguras, escalables y de alto rendimiento.",
+    "contact_btn": "Ponte en Contacto",
+    "download_cv": "Descargar CV"
+  },
+  "about": {
+    "title": "Sobre Mí",
+    "description": "Apasionado por escribir código limpio y escalable y aprender continuamente nuevas herramientas. Tengo fuertes habilidades de colaboración remota, experiencia Agile y soy un aprendiz continuo - actualmente fortaleciendo las prácticas de automatización de pruebas y seguridad.",
+    "tech_stack": "Stack Tecnológico",
+    "languages": "Lenguajes",
+    "technologies": "Tecnologías",
+    "tools": "Herramientas",
+    "cloud_devops": "Cloud y DevOps"
+  },
+  "experience": {
+    "title": "Experiencia Profesional",
+    "present": "Presente",
+    "companies": {
+      "axa": {
+        "name": "AXA Mansard Insurance Plc",
+        "position": "Desarrollador Fullstack - Híbrido",
+        "period": "Abril 2022 - Presente",
+        "achievements": [
+          "Lideré la arquitectura e implementación de un Sistema de Gestión de Leads usando .NET, Angular 19 y SQL Server.",
+          "Implementé medidas de seguridad, como encriptación y desencriptación para cargas útiles sensibles, RBAC.",
+          "Modernicé componentes legacy refactorizando consultas y endpoints para reducir la deuda técnica, y logré un 25% de mejora en rendimiento.",
+          "Integré un sistema de notificaciones en tiempo real usando SignalR, habilitando actualizaciones dinámicas en la plataforma.",
+          "Participé en ceremonias Agile (planificación de sprints, revisiones, stand-ups) y revisé pull requests en Azure DevOps.",
+          "Contribuí al pipeline DevOps, mejorando la eficiencia en CI/CD en Azure DevOps.",
+          "Mentoré a 2 desarrolladores junior en revisiones de código y recorridos de proyectos."
+        ]
+      },
+      "harmoni": {
+        "name": "Harmoni Technologies",
+        "position": "Desarrollador Backend - Remoto",
+        "period": "Agosto 2021 - Abril 2022",
+        "achievements": [
+          "Transformé requisitos de clientes y declaraciones de problemas de negocio en una Web API escalable usando .NET Core.",
+          "Reforcé mejores prácticas a través de revisiones de código y control de versiones Git.",
+          "Diseñé microservicios escalables en .NET Core."
+        ]
+      },
+      "bytes": {
+        "name": "Bytes Intel Limited",
+        "position": "Desarrollador Fullstack - Remoto",
+        "period": "Octubre 2019 - Abril 2022",
+        "achievements": [
+          "Consulté directamente con clientes para dar forma a los requisitos del negocio y producto.",
+          "Construí y desplegué un sistema de eCommerce usando .NET Framework, Web API y SQL Server.",
+          "Desarrollé y proporcioné mantenimiento para hasta cuatro (4) sitios web .NET."
+        ]
+      }
+    }
+  },
+  "projects": {
+    "title": "Proyectos Destacados",
+    "view_project": "Ver Proyecto",
+    "view_code": "Ver Código",
+    "mymonie": {
+      "title": "MyMonie",
+      "description": "Software de seguimiento y análisis financiero. Construí el núcleo de seguimiento financiero y presupuestario con .NET 8 y Angular. Actualmente explorando la integración de API GPT para características de presupuestación inteligente.",
+      "status": "En Curso"
+    }
+  },
+  "contact": {
+    "title": "Ponte en Contacto",
+    "subtitle": "Trabajemos juntos para dar vida a tus ideas",
+    "lets_connect": "Conectemos",
+    "connect_description": "Siempre estoy interesado en escuchar sobre nuevas oportunidades y proyectos emocionantes. Ya sea que tengas una pregunta o solo quieras saludar, ¡haré mi mejor esfuerzo para responderte!",
+    "location": "Lagos, Nigeria",
+    "phone": "+2347084385093",
+    "email": "davidire71@gmail.com",
+    "follow_me": "Sígueme",
+    "send_message": "Enviar Mensaje",
+    "name": "Nombre",
+    "name_placeholder": "Tu Nombre",
+    "email_placeholder": "tu.email@ejemplo.com",
+    "subject": "Asunto",
+    "subject_placeholder": "¿De qué se trata?",
+    "message": "Mensaje",
+    "message_placeholder": "¡Cuéntame sobre tu proyecto o solo saluda!",
+    "submit": "Enviar",
+    "sending": "Enviando...",
+    "success_message": "¡Gracias! Tu mensaje ha sido enviado exitosamente."
+  },
+  "footer": {
+    "copyright": "© 2025 Mordecai Godwin. Todos los derechos reservados."
+  }
+}
