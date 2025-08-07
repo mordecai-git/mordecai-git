@@ -1,0 +1,113 @@
+{
+  "header": {
+    "name": "Mordecai Godwin",
+    "title": "Fullstack Developer",
+    "home": "Ụlọ",
+    "about": "Banyere M",
+    "experience": "Ahụmịhe",
+    "projects": "Ọrụ",
+    "contact": "Kpọtụrụ"
+  },
+  "hero": {
+    "greeting": "Ndewo, abụ m",
+    "subtitle": "Fullstack Developer nwere ahụmịhe afọ ise n'inyefe ngwa azụmahịa ndị dị nchebe, nke nwere ike ịrị elu na nke arụmọrụ dị elu.",
+    "contact_btn": "Ka anyị kparịta ụka",
+    "download_cv": "Budata CV"
+  },
+  "about": {
+    "title": "Banyere M",
+    "description": "Enwere m mmasị n'ide koodu dị ọcha na nke nwere ike ịrị elu na ịmụta ngwa ọhụrụ mgbe niile. Enwere m ike imekọrịta ihe n'ebe dị anya, ahụmịhe Agile na abụ m onye na-amụ ihe mgbe niile - ugbu a ana m akwalite omume nyocha akpaka na nchekwa.",
+    "tech_stack": "Tech Stack",
+    "languages": "Asụsụ Mmemme",
+    "technologies": "Teknọlọjị",
+    "tools": "Ngwa",
+    "cloud_devops": "Cloud & DevOps",
+    "spoken_languages": "Asụsụ Ndị M Na-asụ",
+    "english": "Bekee",
+    "yoruba": "Yoruba",
+    "igbo": "Igbo",
+    "hausa": "Hausa",
+    "pidgin": "Nigerian Pidgin",
+    "proficiency": {
+      "native": "Asụsụ Obodo",
+      "fluent": "M maara nke ọma",
+      "professional": "C1 (Nkà Ọrụ Zuru Oke)",
+      "intermediate": "Etiti",
+      "basic": "Ntọala"
+    }
+  },
+  "experience": {
+    "title": "Ahụmịhe Ọrụ",
+    "present": "Ugbu a",
+    "companies": {
+      "axa": {
+        "name": "AXA Mansard Insurance Plc",
+        "position": "Fullstack Developer - Hybrid",
+        "period": "Eprel 2022 - Ugbu a",
+        "achievements": [
+          "M duuru usoro na mmempe nke Sistemụ Njikwa Lead site na iji .NET, Angular 19, na SQL Server.",
+          "M mebere usoro nchekwa, dị ka encryption na decryption maka payload ndị dị mkpa, RBAC.",
+          "M mezigharịrị akụrụngwa ochie site na refactoring ajụjụ na endpoints iji belata ụgwọ teknụzụ, wee nweta mmụba arụmọrụ 25%.",
+          "M jikọtara sistemụ ọkwa oge n'ezie site na iji SignalR, nke na-eme ka mmelite dị iche iche gafee usoro ahụ.",
+          "M sonyere na emume Agile (nhazi sprint, nyocha, kwụsị) ma nyochaa arịrịọ ịdọrọ na Azure DevOps.",
+          "M nyere aka na pipeline DevOps, na-emeziwanye arụmọrụ na CI/CD na Azure DevOps.",
+          "M kụziiri ndị mmepe obere 2 na nyocha koodu ọgbọ na njem ọrụ."
+        ]
+      },
+      "harmoni": {
+        "name": "Harmoni Technologies",
+        "position": "Backend Developer - N'ebe dị anya",
+        "period": "Ọgọst 2021 - Eprel 2022",
+        "achievements": [
+          "M gbanwere ihe ndị ahịa chọrọ na nkwupụta nsogbu azụmahịa ka ọ bụrụ Web API nwere ike ịrị elu site na iji .NET Core.",
+          "M manyere omume kachasị mma site na nyocha koodu na njikwa ụdị Git.",
+          "M rụpụtara .NET Core Microservices nwere ike ịrị elu."
+        ]
+      },
+      "bytes": {
+        "name": "Bytes Intel Limited",
+        "position": "Fullstack Developer - N'ebe dị anya",
+        "period": "Ọktọba 2019 - Eprel 2022",
+        "achievements": [
+          "M dụrụ ndị ahịa ọdụ ọdụ iji kpụọ ihe azụmahịa na ngwaahịa chọrọ.",
+          "M wuru ma tinye sistemụ eCommerce site na iji .NET Framework, Web API na SQL Server.",
+          "M mepụtara ma nye nlekọta maka webụsaịtị .NET ruru anọ (4)."
+        ]
+      }
+    }
+  },
+  "projects": {
+    "title": "Ọrụ Ndị A Họpụtara",
+    "view_project": "Lee Ọrụ",
+    "view_code": "Lee Koodu",
+    "mymonie": {
+      "title": "MyMonie",
+      "description": "Ngwanrọ nhazi ego na nyocha. M wuru isi nhazi ego na mmefu ego na .NET 8 na Angular. Ugbu a m na-enyocha njikọ GPT API maka atụmatụ mmefu ego nwere ọgụgụ isi.",
+      "status": "Na-aga"
+    }
+  },
+  "contact": {
+    "title": "Ka anyị kparịta ụka",
+    "subtitle": "Ka anyị rụkọọ ọrụ iji mee ka echiche gị dị ndụ",
+    "lets_connect": "Ka anyị jikọọ",
+    "connect_description": "M na-enwe mmasị mgbe niile ịnụ banyere ohere ọhụrụ na ọrụ na-atọ ụtọ. Ma ị nwere ajụjụ ma ọ bụ naanị chọrọ ikwu ndewo, m ga-agbalị ike m niile ịlaghachi gị!",
+    "location": "Lagos, Nigeria",
+    "phone": "+2347084385093",
+    "email": "davidire71@gmail.com",
+    "follow_me": "Soro M",
+    "send_message": "Zipu Ozi",
+    "name": "Aha",
+    "name_placeholder": "Aha Gị",
+    "email_placeholder": "your.email@example.com",
+    "subject": "Isiokwu",
+    "subject_placeholder": "Gịnị ka nke a bụ?",
+    "message": "Ozi",
+    "message_placeholder": "Gwa m banyere ọrụ gị ma ọ bụ kwuo ndewo!",
+    "submit": "Zipu",
+    "sending": "Na-ezipu...",
+    "success_message": "Daalụ! Ezipụla ozi gị nke ọma."
+  },
+  "footer": {
+    "copyright": "© 2025 Mordecai Godwin. Ikike niile echekwabara."
+  }
+}

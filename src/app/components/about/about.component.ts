@@ -6,23 +6,33 @@ import { TranslateModule } from '@ngx-translate/core';
   selector: 'app-about',
   standalone: true,
   imports: [CommonModule, TranslateModule],
-  templateUrl: './about.component.html'
+  templateUrl: './about.component.html',
 })
 export class AboutComponent {
   languages = ['C#', 'HTML5', 'CSS', 'JavaScript', 'TypeScript', 'SQL'];
 
   technologies = [
-    '.NET Core 6/7/8', 'ASP.NET MVC', 'Web API', 'Angular',
-    'Entity Framework Core', 'xUnit', 'SignalR'
+    '.NET Core 6/7/8',
+    'ASP.NET MVC',
+    'Web API',
+    'Angular',
+    'Entity Framework Core',
+    'xUnit',
+    'SignalR',
   ];
 
   tools = [
-    'Git', 'Postman', 'Visual Studio', 'Jira',
-    'Azure Boards', 'Docker (learning)'
+    'Git',
+    'Postman',
+    'Visual Studio',
+    'Jira',
+    'Azure Boards',
+    'Docker (learning)',
   ];
 
   cloudDevOps = [
     'Azure (Blob Storage, App Service, DevOps)',
-    'CI/CD pipelines', 'GitHub'
+    'CI/CD pipelines',
+    'GitHub',
   ];
 }

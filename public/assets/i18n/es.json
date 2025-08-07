@@ -21,7 +21,20 @@
     "languages": "Lenguajes",
     "technologies": "Tecnologías",
     "tools": "Herramientas",
-    "cloud_devops": "Cloud y DevOps"
+    "cloud_devops": "Cloud y DevOps",
+    "spoken_languages": "Idiomas Hablados",
+    "english": "Inglés",
+    "yoruba": "Yoruba",
+    "igbo": "Igbo",
+    "hausa": "Hausa",
+    "pidgin": "Pidgin Nigeriano",
+    "proficiency": {
+      "native": "Nativo",
+      "fluent": "Fluido",
+      "professional": "C1 (Competencia Profesional Completa)",
+      "intermediate": "Intermedio",
+      "basic": "Básico"
+    }
   },
   "experience": {
     "title": "Experiencia Profesional",
