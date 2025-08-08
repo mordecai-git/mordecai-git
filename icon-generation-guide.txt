@@ -1,0 +1,32 @@
+# Icon Generation Script
+# This script helps generate all required icon sizes for PWA and SEO
+
+# Required icon sizes for manifest.json:
+# 72x72, 96x96, 128x128, 144x144, 152x152, 192x192, 384x384, 512x512
+
+# Required favicon sizes:
+# 16x16, 32x32, 180x180 (Apple touch icon)
+
+# You can use online tools or ImageMagick to generate these:
+
+# Example with ImageMagick (if installed):
+# convert source-icon.png -resize 72x72 icon-72x72.png
+# convert source-icon.png -resize 96x96 icon-96x96.png
+# convert source-icon.png -resize 128x128 icon-128x128.png
+# convert source-icon.png -resize 144x144 icon-144x144.png
+# convert source-icon.png -resize 152x152 icon-152x152.png
+# convert source-icon.png -resize 192x192 icon-192x192.png
+# convert source-icon.png -resize 384x384 icon-384x384.png
+# convert source-icon.png -resize 512x512 icon-512x512.png
+
+# For favicon:
+# convert source-icon.png -resize 16x16 favicon-16x16.png
+# convert source-icon.png -resize 32x32 favicon-32x32.png
+# convert source-icon.png -resize 180x180 apple-touch-icon.png
+
+# Online tools you can use:
+# - https://realfavicongenerator.net/
+# - https://favicon.io/
+# - https://www.favicon-generator.org/
+
+# Place all generated icons in: public/assets/icons/

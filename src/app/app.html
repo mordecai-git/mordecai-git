@@ -1,28 +1,49 @@
 <!-- Portfolio Website -->
 <div class="min-h-screen bg-dark-900 text-white">
+  <!-- Skip to main content for accessibility -->
+  <a
+    href="#main-content"
+    class="sr-only z-50 rounded-lg bg-primary-500 px-4 py-2 text-white focus:not-sr-only focus:absolute focus:left-4 focus:top-4">
+    Skip to main content
+  </a>
+
   <!-- Header -->
-  <app-header></app-header>
+  <header role="banner">
+    <app-header></app-header>
+  </header>
 
   <!-- Main Content -->
-  <main>
+  <main id="main-content" role="main">
     <!-- Hero Section -->
-    <app-hero></app-hero>
+    <section aria-label="Introduction">
+      <app-hero></app-hero>
+    </section>
 
     <!-- About Section -->
-    <app-about></app-about>
+    <section aria-label="About">
+      <app-about></app-about>
+    </section>
 
     <!-- Experience Section -->
-    <app-experience></app-experience>
+    <section aria-label="Professional Experience">
+      <app-experience></app-experience>
+    </section>
 
     <!-- Projects Section -->
-    <app-projects></app-projects>
+    <section aria-label="Portfolio Projects">
+      <app-projects></app-projects>
+    </section>
 
     <!-- Contact Section -->
-    <app-contact></app-contact>
+    <section aria-label="Contact Information">
+      <app-contact></app-contact>
+    </section>
   </main>
 
   <!-- Footer -->
-  <app-footer></app-footer>
+  <footer role="contentinfo">
+    <app-footer></app-footer>
+  </footer>
 </div>
 
 <router-outlet />

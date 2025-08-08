@@ -12,6 +12,7 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { LanguageService } from './services/language.service';
+import { SeoService } from './services/seo.service';
 
 @Component({
   selector: 'app-root',
@@ -35,9 +36,22 @@ export class App implements OnInit {
   protected readonly title = signal('mordecai-git');
   private translate = inject(TranslateService);
   private languageService = inject(LanguageService);
+  private seoService = inject(SeoService);
 
   ngOnInit() {
     // Initialize translation service with saved language
     this.languageService.initializeLanguage();
+
+    // Initialize SEO
+    this.initializeSeo();
+  }
+
+  private initializeSeo(): void {
+    // Set default SEO tags
+    this.seoService.updateSeoTags({});
+
+    // Generate structured data for person and portfolio
+    this.seoService.generateStructuredData('person');
+    this.seoService.generateStructuredData('portfolio');
   }
 }

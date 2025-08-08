@@ -1,0 +1,20 @@
+{
+    "name": "Mordecai Godwin - Fullstack Developer Portfolio",
+    "short_name": "Mordecai Portfolio",
+    "description": "Professional portfolio of Mordecai Godwin, experienced Fullstack Developer specializing in Angular, .NET, and Azure cloud solutions.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#1F2937",
+    "theme_color": "#3B82F6",
+    "orientation": "portrait-primary",
+    "categories": ["business", "productivity", "portfolio"],
+    "lang": "en-US",
+    "scope": "/",
+    "icons": [
+        {
+            "src": "favicon.ico",
+            "sizes": "any",
+            "type": "image/x-icon"
+        }
+    ]
+}

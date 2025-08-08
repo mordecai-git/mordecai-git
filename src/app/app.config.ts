@@ -1,12 +1,11 @@
-import { ApplicationConfig, importProvidersFrom, provideBrowserGlobalErrorListeners, provideZoneChangeDetection } from '@angular/core';
+import { ApplicationConfig, provideBrowserGlobalErrorListeners, provideZoneChangeDetection } from '@angular/core';
 import { provideRouter } from '@angular/router';
 import { provideHttpClient } from '@angular/common/http';
-import { TranslateModule, TranslateLoader, provideTranslateService } from '@ngx-translate/core';
-import { provideTranslateHttpLoader, TranslateHttpLoader } from '@ngx-translate/http-loader';
-import { HttpClient } from '@angular/common/http';
+import { provideTranslateService } from '@ngx-translate/core';
+import { provideTranslateHttpLoader } from '@ngx-translate/http-loader';
+import { Title, Meta } from '@angular/platform-browser';
 
 import { routes } from './app.routes';
-
 
 export const appConfig: ApplicationConfig = {
   providers: [
@@ -20,8 +19,10 @@ export const appConfig: ApplicationConfig = {
       lang: 'en',
       loader: provideTranslateHttpLoader({
         prefix: './assets/i18n/',
-        suffix: '.json',
-      }),
+        suffix: '.json'
+      })
     }),
+    Title,
+    Meta
   ]
 };

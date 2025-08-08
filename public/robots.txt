@@ -1,0 +1,25 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://mordecai-git.github.io/sitemap.xml
+
+# Crawl-delay (optional - adjust as needed)
+Crawl-delay: 1
+
+# Disallow specific paths if any (currently allowing all)
+# Disallow: /admin/
+# Disallow: /private/
+
+# Allow specific bots
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+# Additional directives for better crawling
+Host: https://mordecai-git.github.io
