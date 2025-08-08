@@ -11,13 +11,13 @@
     <div class="mx-auto max-w-4xl">
       <div class="relative">
         <!-- Timeline line -->
-        <div class="absolute bottom-0 left-8 top-0 w-0.5 bg-primary-500"></div>
+        <div class="absolute bottom-0 left-8 top-0 hidden w-0.5 bg-primary-500 md:block"></div>
 
         <!-- Experience Items -->
         @for (exp of experiences; let i = $index; track $index) {
-          <div class="relative mb-12 pl-20">
+          <div class="relative mb-12 md:pl-20">
             <!-- Timeline dot -->
-            <div class="absolute left-6 h-4 w-4 rounded-full border-4 border-dark-900 bg-primary-500"></div>
+            <div class="absolute left-6 hidden h-4 w-4 rounded-full border-4 border-dark-900 bg-primary-500 md:block"></div>
 
             <div
               class="rounded-xl border border-dark-700 bg-dark-800/50 p-8 backdrop-blur-sm transition-all duration-300 hover:border-primary-500/50">
