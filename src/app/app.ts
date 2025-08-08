@@ -11,6 +11,7 @@ import { ExperienceComponent } from './components/experience/experience.componen
 import { ProjectsComponent } from './components/projects/projects.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { LanguageService } from './services/language.service';
 
 @Component({
   selector: 'app-root',
@@ -33,10 +34,10 @@ import { FooterComponent } from './components/footer/footer.component';
 export class App implements OnInit {
   protected readonly title = signal('mordecai-git');
   private translate = inject(TranslateService);
+  private languageService = inject(LanguageService);
 
   ngOnInit() {
-    // Initialize translation service
-    this.translate.setDefaultLang('en');
-    this.translate.use('en');
+    // Initialize translation service with saved language
+    this.languageService.initializeLanguage();
   }
 }

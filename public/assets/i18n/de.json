@@ -1,113 +1,148 @@
 {
-  "header": {
-    "name": "Mordecai Godwin",
-    "title": "Fullstack-Entwickler",
-    "home": "Startseite",
-    "about": "Über mich",
-    "experience": "Erfahrung",
-    "projects": "Projekte",
-    "contact": "Kontakt"
-  },
-  "hero": {
-    "greeting": "Hallo, ich bin",
-    "subtitle": "Erfahrener Fullstack-Entwickler mit 5 Jahren Erfahrung in der Bereitstellung sicherer, skalierbarer und leistungsstarker Unternehmensanwendungen.",
-    "contact_btn": "Kontakt aufnehmen",
-    "download_cv": "Lebenslauf herunterladen"
-  },
-  "about": {
-    "title": "Über mich",
-    "description": "Leidenschaftlich beim Schreiben von sauberem, skalierbarem Code und kontinuierlichem Lernen neuer Tools. Ich habe starke Remote-Kollaborationsfähigkeiten, Agile-Erfahrung und bin ein kontinuierlicher Lerner - derzeit stärke ich Testautomatisierung und Sicherheitspraktiken.",
-    "tech_stack": "Tech-Stack",
-    "languages": "Programmiersprachen",
-    "technologies": "Technologien",
-    "tools": "Werkzeuge",
-    "cloud_devops": "Cloud & DevOps",
-    "spoken_languages": "Gesprochene Sprachen",
-    "english": "Englisch",
-    "yoruba": "Yoruba",
-    "igbo": "Igbo",
-    "hausa": "Hausa",
-    "pidgin": "Nigerianisches Pidgin",
-    "proficiency": {
-      "native": "Muttersprache",
-      "fluent": "Fließend",
-      "professional": "C1 (Vollständige berufliche Kompetenz)",
-      "intermediate": "Mittelstufe",
-      "basic": "Grundkenntnisse"
+    "header": {
+        "name": "Mordecai Godwin",
+        "title": "Fullstack-Entwickler",
+        "home": "Startseite",
+        "about": "Über mich",
+        "experience": "Erfahrung",
+        "projects": "Projekte",
+        "contact": "Kontakt"
+    },
+    "hero": {
+        "greeting": "Hallo, ich bin",
+        "subtitle": "Erfahrener Fullstack-Entwickler mit 5 Jahren Erfahrung in der Bereitstellung sicherer, skalierbarer und leistungsstarker Unternehmensanwendungen.",
+        "contact_btn": "Kontakt aufnehmen",
+        "download_cv": "Lebenslauf herunterladen"
+    },
+    "about": {
+        "title": "Über mich",
+        "description": "Leidenschaftlich beim Schreiben von sauberem, skalierbarem Code und kontinuierlichem Lernen neuer Werkzeuge. Ich habe starke Remote-Kollaborationsfähigkeiten, Agile-Erfahrung und bin ein kontinuierlicher Lerner - derzeit verstärke ich Testautomatisierung und Sicherheitspraktiken.",
+        "tech_stack": "Tech Stack",
+        "languages": "Sprachen",
+        "technologies": "Technologien",
+        "tools": "Werkzeuge",
+        "cloud_devops": "Cloud & DevOps",
+        "spoken_languages": "Gesprochene Sprachen",
+        "english": "Englisch",
+        "yoruba": "Yoruba",
+        "pidgin": "Nigerianisches Pidgin",
+        "proficiency": {
+            "native": "Muttersprache",
+            "fluent": "Fließend",
+            "professional": "C1 (Vollständige berufliche Kompetenz)",
+            "intermediate": "Mittelstufe",
+            "basic": "Grundlagen"
+        },
+        "stats": {
+            "years_experience": "Jahre Erfahrung",
+            "projects_completed": "Abgeschlossene Projekte",
+            "companies": "Unternehmen",
+            "certification": "Zertifizierung"
+        },
+        "education": {
+            "title": "Bildung & Zertifizierungen",
+            "polytechnic_ibadan": "The Polytechnic, Ibadan",
+            "national_diploma": "Nationales Diplom (entspricht einem 2-jährigen Hochschulabschluss)",
+            "polytechnic_period": "Dezember 2016 - Oktober 2018",
+            "azure_certification": "Microsoft Azure AI Fundamentals",
+            "azure_date": "Dez. 2024"
+        }
+    },
+    "experience": {
+        "title": "Berufserfahrung",
+        "present": "Gegenwart",
+        "companies": {
+            "axa": {
+                "name": "AXA Mansard Insurance Plc",
+                "position": "Fullstack-Entwickler - Hybrid",
+                "period": "April 2022 - Gegenwart",
+                "achievements": [
+                    "Leitete die Architektur und Implementierung eines Lead-Management-Systems mit .NET, Angular 19 und SQL Server.",
+                    "Implementierte Sicherheitsmaßnahmen wie Verschlüsselung und Entschlüsselung für sensible Payloads, RBAC.",
+                    "Modernisierte Legacy-Komponenten durch Refactoring von Queries und Endpoints zur Reduzierung technischer Schulden und erzielte eine 25%ige Leistungssteigerung.",
+                    "Integrierte ein Echtzeit-Benachrichtigungssystem mit SignalR, das dynamische Updates auf der gesamten Plattform ermöglicht.",
+                    "Teilnahme an Agile-Zeremonien (Sprint-Planung, Reviews, Stand-ups) und Review von Pull Requests in Azure DevOps.",
+                    "Beitrag zur DevOps-Pipeline, Verbesserung der Effizienz in CI/CD in Azure DevOps.",
+                    "Mentoring von 2 Junior-Entwicklern bei Code-Reviews und Projekt-Walkthroughs."
+                ]
+            },
+            "harmoni": {
+                "name": "Harmoni Technologies",
+                "position": "Backend-Entwickler - Remote",
+                "period": "August 2021 - April 2022",
+                "achievements": [
+                    "Transformierte Kundenanforderungen und Geschäftsproblemstellungen in eine skalierbare Web-API mit .NET Core.",
+                    "Durchsetzte Best Practices durch Code-Reviews und Git-Versionskontrolle.",
+                    "Entwickelte skalierbare .NET Core Microservices."
+                ]
+            },
+            "bytes": {
+                "name": "Bytes Intel Limited",
+                "position": "Fullstack-Entwickler - Remote",
+                "period": "Oktober 2019 - April 2022",
+                "achievements": [
+                    "Beriet Kunden direkt bei der Gestaltung von Geschäfts- und Produktanforderungen.",
+                    "Baute und deployierte ein eCommerce-System mit .NET Framework, Web API und SQL Server.",
+                    "Entwickelte und wartete bis zu vier (4) .NET-Websites."
+                ]
+            }
+        }
+    },
+    "projects": {
+        "title": "Ausgewählte Projekte",
+        "view_project": "Projekt anzeigen",
+        "view_code": "Code anzeigen",
+        "view": "Anzeigen",
+        "code": "Code",
+        "featured": "Hervorgehoben",
+        "view_more_projects": "Weitere Projekte anzeigen",
+        "mymonie": {
+            "title": "MyMonie",
+            "description": "Finanz-Tracking- und Analysesoftware. Kernfinanztracking und Budgetierung mit .NET 8 und Angular entwickelt. Derzeit wird die GPT-API-Integration für intelligente Budgetierungsfunktionen erforscht.",
+            "status": "Laufend"
+        },
+        "lead_management": {
+            "title": "Lead-Management-System",
+            "description": "Enterprise-Level-Lead-Management-System mit Echtzeit-Benachrichtigungen und RBAC."
+        },
+        "ecommerce": {
+            "title": "E-Commerce-Plattform",
+            "description": "Vollständiges E-Commerce-System mit Zahlungsintegration und Lagerverwaltung."
+        }
+    },
+    "contact": {
+        "title": "Kontakt aufnehmen",
+        "subtitle": "Lassen Sie uns zusammenarbeiten, um Ihre Ideen zum Leben zu erwecken",
+        "lets_connect": "Lassen Sie uns verbinden",
+        "connect_description": "Ich bin immer interessiert daran, von neuen Möglichkeiten und aufregenden Projekten zu hören. Ob Sie eine Frage haben oder einfach nur Hallo sagen möchten, ich werde mein Bestes geben, um Ihnen zu antworten!",
+        "location": "Lagos, Nigeria",
+        "phone": "+2347084385093",
+        "email": "davidire71@gmail.com",
+        "follow_me": "Folgen Sie mir",
+        "send_message": "Nachricht senden",
+        "name": "Name",
+        "name_placeholder": "Ihr Name",
+        "email_placeholder": "ihre.email@beispiel.com",
+        "subject": "Betreff",
+        "subject_placeholder": "Worum geht es?",
+        "message": "Nachricht",
+        "message_placeholder": "Erzählen Sie mir von Ihrem Projekt oder sagen Sie einfach Hallo!",
+        "submit": "Senden",
+        "sending": "Senden...",
+        "success_message": "Danke! Ihre Nachricht wurde erfolgreich gesendet."
+    },
+    "footer": {
+        "copyright": "© 2025 Mordecai Godwin. Alle Rechte vorbehalten.",
+        "brand_description": "Fullstack-Entwickler mit Leidenschaft für die Erstellung sicherer, skalierbarer und leistungsstarker Anwendungen.",
+        "quick_links": "Schnelllinks",
+        "contact_info": "Kontaktinformationen",
+        "home": "Startseite",
+        "about": "Über mich",
+        "experience": "Erfahrung",
+        "projects": "Projekte",
+        "contact": "Kontakt",
+        "location": "Lagos, Nigeria",
+        "privacy_policy": "Datenschutzrichtlinie",
+        "terms_of_service": "Nutzungsbedingungen"
     }
-  },
-  "experience": {
-    "title": "Berufserfahrung",
-    "present": "Gegenwart",
-    "companies": {
-      "axa": {
-        "name": "AXA Mansard Insurance Plc",
-        "position": "Fullstack-Entwickler - Hybrid",
-        "period": "April 2022 - Gegenwart",
-        "achievements": [
-          "Leitete die Architektur und Implementierung eines Lead-Management-Systems mit .NET, Angular 19 und SQL Server.",
-          "Implementierte Sicherheitsmaßnahmen wie Verschlüsselung und Entschlüsselung für sensible Payloads, RBAC.",
-          "Modernisierte Legacy-Komponenten durch Refactoring von Abfragen und Endpunkten zur Reduzierung technischer Schulden und erreichte eine 25%ige Leistungssteigerung.",
-          "Integrierte ein Echtzeit-Benachrichtigungssystem mit SignalR, das dynamische Updates auf der gesamten Plattform ermöglicht.",
-          "Nahm an Agile-Zeremonien (Sprint-Planung, Reviews, Stand-ups) teil und überprüfte Pull Requests in Azure DevOps.",
-          "Trug zur DevOps-Pipeline bei und verbesserte die Effizienz von CI/CD in Azure DevOps.",
-          "Mentorierte 2 Junior-Entwickler bei Code-Reviews und Projekt-Walkthroughs."
-        ]
-      },
-      "harmoni": {
-        "name": "Harmoni Technologies",
-        "position": "Backend-Entwickler - Remote",
-        "period": "August 2021 - April 2022",
-        "achievements": [
-          "Transformierte Kundenanforderungen und Geschäftsproblemstellungen in eine skalierbare Web-API mit .NET Core.",
-          "Setzte Best Practices durch Code-Reviews und Git-Versionskontrolle durch.",
-          "Entwickelte skalierbare .NET Core Microservices."
-        ]
-      },
-      "bytes": {
-        "name": "Bytes Intel Limited",
-        "position": "Fullstack-Entwickler - Remote",
-        "period": "Oktober 2019 - April 2022",
-        "achievements": [
-          "Beriet Kunden direkt zur Gestaltung von Geschäfts- und Produktanforderungen.",
-          "Baute und deployete ein eCommerce-System mit .NET Framework, Web API und SQL Server.",
-          "Entwickelte und wartete bis zu vier (4) .NET-Websites."
-        ]
-      }
-    }
-  },
-  "projects": {
-    "title": "Ausgewählte Projekte",
-    "view_project": "Projekt anzeigen",
-    "view_code": "Code anzeigen",
-    "mymonie": {
-      "title": "MyMonie",
-      "description": "Finanz-Tracking und Analytics-Software. Baute Kern-Finanz-Tracking und Budgetierung mit .NET 8 und Angular. Erkunde derzeit GPT API-Integration für intelligente Budgetierungsfunktionen.",
-      "status": "Laufend"
-    }
-  },
-  "contact": {
-    "title": "Kontakt aufnehmen",
-    "subtitle": "Lassen Sie uns zusammenarbeiten, um Ihre Ideen zum Leben zu erwecken",
-    "lets_connect": "Lassen Sie uns verbinden",
-    "connect_description": "Ich bin immer interessiert daran, von neuen Möglichkeiten und spannenden Projekten zu hören. Ob Sie eine Frage haben oder einfach nur Hallo sagen möchten, ich werde mein Bestes geben, um Ihnen zu antworten!",
-    "location": "Lagos, Nigeria",
-    "phone": "+2347084385093",
-    "email": "davidire71@gmail.com",
-    "follow_me": "Folgen Sie mir",
-    "send_message": "Nachricht senden",
-    "name": "Name",
-    "name_placeholder": "Ihr Name",
-    "email_placeholder": "ihre.email@beispiel.com",
-    "subject": "Betreff",
-    "subject_placeholder": "Worum geht es?",
-    "message": "Nachricht",
-    "message_placeholder": "Erzählen Sie mir von Ihrem Projekt oder sagen Sie einfach Hallo!",
-    "submit": "Absenden",
-    "sending": "Wird gesendet...",
-    "success_message": "Vielen Dank! Ihre Nachricht wurde erfolgreich gesendet."
-  },
-  "footer": {
-    "copyright": "© 2025 Mordecai Godwin. Alle Rechte vorbehalten."
-  }
 }

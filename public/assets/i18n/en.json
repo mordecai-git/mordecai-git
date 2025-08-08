@@ -1,113 +1,148 @@
 {
-  "header": {
-    "name": "Mordecai Godwin",
-    "title": "Fullstack Developer",
-    "home": "Home",
-    "about": "About",
-    "experience": "Experience",
-    "projects": "Projects",
-    "contact": "Contact"
-  },
-  "hero": {
-    "greeting": "Hello, I'm",
-    "subtitle": "Experienced Fullstack Developer with 5 years of delivering secure, scalable and high-performance enterprise-level applications.",
-    "contact_btn": "Get In Touch",
-    "download_cv": "Download CV"
-  },
-  "about": {
-    "title": "About Me",
-    "description": "Passionate about writing clean, scalable code and continuously learning new tools. I have strong remote collaboration skills, Agile experience and am a continuous learner - currently strengthening test automation and security practices.",
-    "tech_stack": "Tech Stack",
-    "languages": "Languages",
-    "technologies": "Technologies",
-    "tools": "Tools",
-    "cloud_devops": "Cloud & DevOps",
-    "spoken_languages": "Spoken Languages",
-    "english": "English",
-    "yoruba": "Yoruba",
-    "igbo": "Igbo",
-    "hausa": "Hausa",
-    "pidgin": "Nigerian Pidgin",
-    "proficiency": {
-      "native": "Native",
-      "fluent": "Fluent",
-      "professional": "C1 (Full Professional Proficiency)",
-      "intermediate": "Intermediate",
-      "basic": "Basic"
+    "header": {
+        "name": "Mordecai Godwin",
+        "title": "Fullstack Developer",
+        "home": "Home",
+        "about": "About",
+        "experience": "Experience",
+        "projects": "Projects",
+        "contact": "Contact"
+    },
+    "hero": {
+        "greeting": "Hello, I'm",
+        "subtitle": "Experienced Fullstack Developer with 5 years of delivering secure, scalable and high-performance enterprise-level applications.",
+        "contact_btn": "Get In Touch",
+        "download_cv": "Download CV"
+    },
+    "about": {
+        "title": "About Me",
+        "description": "Passionate about writing clean, scalable code and continuously learning new tools. I have strong remote collaboration skills, Agile experience and am a continuous learner - currently strengthening test automation and security practices.",
+        "tech_stack": "Tech Stack",
+        "languages": "Languages",
+        "technologies": "Technologies",
+        "tools": "Tools",
+        "cloud_devops": "Cloud & DevOps",
+        "spoken_languages": "Spoken Languages",
+        "english": "English",
+        "yoruba": "Yoruba",
+        "pidgin": "Nigerian Pidgin",
+        "proficiency": {
+            "native": "Native",
+            "fluent": "Fluent",
+            "professional": "C1 (Full Professional Proficiency)",
+            "intermediate": "Intermediate",
+            "basic": "Basic"
+        },
+        "stats": {
+            "years_experience": "Years Experience",
+            "projects_completed": "Projects Completed",
+            "companies": "Companies",
+            "certification": "Certification"
+        },
+        "education": {
+            "title": "Education & Certifications",
+            "polytechnic_ibadan": "The Polytechnic, Ibadan",
+            "national_diploma": "National Diploma (equivalent to a 2-year higher education degree)",
+            "polytechnic_period": "December 2016 - October 2018",
+            "azure_certification": "Microsoft Azure AI Fundamentals",
+            "azure_date": "Dec. 2024"
+        }
+    },
+    "experience": {
+        "title": "Professional Experience",
+        "present": "Present",
+        "companies": {
+            "axa": {
+                "name": "AXA Mansard Insurance Plc",
+                "position": "Fullstack Developer - Hybrid",
+                "period": "April 2022 - Present",
+                "achievements": [
+                    "Led the architecture and implementation of a Lead Management System using .NET, Angular 19, and SQL Server.",
+                    "Implemented security measures, such as encryption and decryption for sensitive payloads, RBAC.",
+                    "Modernized legacy components by refactoring queries and endpoints to reduce technical debt, and achieved a 25% performance boost.",
+                    "Integrated a real-time notification system using SignalR, enabling dynamic updates across the platform.",
+                    "Participated in Agile ceremonies (sprint planning, reviews, stand-ups) and reviewed pull requests on Azure DevOps.",
+                    "Contributed to DevOps pipeline, improving efficiency in CI/CD in Azure DevOps.",
+                    "Mentored 2 junior developers in peer code reviews and project walkthroughs."
+                ]
+            },
+            "harmoni": {
+                "name": "Harmoni Technologies",
+                "position": "Backend Developer - Remote",
+                "period": "August 2021 - April 2022",
+                "achievements": [
+                    "Transformed clients' requirements and business problem statements into a scalable Web API using .NET Core.",
+                    "Enforced best practices via code reviews and Git version control.",
+                    "Engineered scalable .NET Core Microservices."
+                ]
+            },
+            "bytes": {
+                "name": "Bytes Intel Limited",
+                "position": "Fullstack Developer - Remote",
+                "period": "October 2019 - April 2022",
+                "achievements": [
+                    "Consulted directly with clients to shape business and product requirements.",
+                    "Built and deployed an eCommerce system using .NET Framework, Web API and SQL Server.",
+                    "Developed and provided maintenance for up to four (4) .NET websites."
+                ]
+            }
+        }
+    },
+    "projects": {
+        "title": "Featured Projects",
+        "view_project": "View Project",
+        "view_code": "View Code",
+        "view": "View",
+        "code": "Code",
+        "featured": "Featured",
+        "view_more_projects": "View More Projects",
+        "mymonie": {
+            "title": "MyMonie",
+            "description": "Finance tracking and analytics software. Built core finance tracking and budgeting with .NET 8 and Angular. Currently exploring GPT API integration for smart budgeting features.",
+            "status": "Ongoing"
+        },
+        "lead_management": {
+            "title": "Lead Management System",
+            "description": "Enterprise-level lead management system with real-time notifications and RBAC."
+        },
+        "ecommerce": {
+            "title": "eCommerce Platform",
+            "description": "Full-featured eCommerce system with payment integration and inventory management."
+        }
+    },
+    "contact": {
+        "title": "Get In Touch",
+        "subtitle": "Let's work together to bring your ideas to life",
+        "lets_connect": "Let's Connect",
+        "connect_description": "I'm always interested in hearing about new opportunities and exciting projects. Whether you have a question or just want to say hi, I'll try my best to get back to you!",
+        "location": "Lagos, Nigeria",
+        "phone": "+2347084385093",
+        "email": "davidire71@gmail.com",
+        "follow_me": "Follow Me",
+        "send_message": "Send Message",
+        "name": "Name",
+        "name_placeholder": "Your Name",
+        "email_placeholder": "your.email@example.com",
+        "subject": "Subject",
+        "subject_placeholder": "What's this about?",
+        "message": "Message",
+        "message_placeholder": "Tell me about your project or just say hello!",
+        "submit": "Submit",
+        "sending": "Sending...",
+        "success_message": "Thank you! Your message has been sent successfully."
+    },
+    "footer": {
+        "copyright": "© 2025 Mordecai Godwin. All rights reserved.",
+        "brand_description": "Fullstack Developer passionate about creating secure, scalable, and high-performance applications.",
+        "quick_links": "Quick Links",
+        "contact_info": "Contact Info",
+        "home": "Home",
+        "about": "About",
+        "experience": "Experience",
+        "projects": "Projects",
+        "contact": "Contact",
+        "location": "Lagos, Nigeria",
+        "privacy_policy": "Privacy Policy",
+        "terms_of_service": "Terms of Service"
     }
-  },
-  "experience": {
-    "title": "Professional Experience",
-    "present": "Present",
-    "companies": {
-      "axa": {
-        "name": "AXA Mansard Insurance Plc",
-        "position": "Fullstack Developer - Hybrid",
-        "period": "April 2022 - Present",
-        "achievements": [
-          "Led the architecture and implementation of a Lead Management System using .NET, Angular 19, and SQL Server.",
-          "Implemented security measures, such as encryption and decryption for sensitive payloads, RBAC.",
-          "Modernized legacy components by refactoring queries and endpoints to reduce technical debt, and achieved a 25% performance boost.",
-          "Integrated a real-time notification system using SignalR, enabling dynamic updates across the platform.",
-          "Participated in Agile ceremonies (sprint planning, reviews, stand-ups) and reviewed pull requests on Azure DevOps.",
-          "Contributed to DevOps pipeline, improving efficiency in CI/CD in Azure DevOps.",
-          "Mentored 2 junior developers in peer code reviews and project walkthroughs."
-        ]
-      },
-      "harmoni": {
-        "name": "Harmoni Technologies",
-        "position": "Backend Developer - Remote",
-        "period": "August 2021 - April 2022",
-        "achievements": [
-          "Transformed clients' requirements and business problem statements into a scalable Web API using .NET Core.",
-          "Enforced best practices via code reviews and Git version control.",
-          "Engineered scalable .NET Core Microservices."
-        ]
-      },
-      "bytes": {
-        "name": "Bytes Intel Limited",
-        "position": "Fullstack Developer - Remote",
-        "period": "October 2019 - April 2022",
-        "achievements": [
-          "Consulted directly with clients to shape business and product requirements.",
-          "Built and deployed an eCommerce system using .NET Framework, Web API and SQL Server.",
-          "Developed and provided maintenance for up to four (4) .NET websites."
-        ]
-      }
-    }
-  },
-  "projects": {
-    "title": "Featured Projects",
-    "view_project": "View Project",
-    "view_code": "View Code",
-    "mymonie": {
-      "title": "MyMonie",
-      "description": "Finance tracking and analytics software. Built core finance tracking and budgeting with .NET 8 and Angular. Currently exploring GPT API integration for smart budgeting features.",
-      "status": "Ongoing"
-    }
-  },
-  "contact": {
-    "title": "Get In Touch",
-    "subtitle": "Let's work together to bring your ideas to life",
-    "lets_connect": "Let's Connect",
-    "connect_description": "I'm always interested in hearing about new opportunities and exciting projects. Whether you have a question or just want to say hi, I'll try my best to get back to you!",
-    "location": "Lagos, Nigeria",
-    "phone": "+2347084385093",
-    "email": "davidire71@gmail.com",
-    "follow_me": "Follow Me",
-    "send_message": "Send Message",
-    "name": "Name",
-    "name_placeholder": "Your Name",
-    "email_placeholder": "your.email@example.com",
-    "subject": "Subject",
-    "subject_placeholder": "What's this about?",
-    "message": "Message",
-    "message_placeholder": "Tell me about your project or just say hello!",
-    "submit": "Submit",
-    "sending": "Sending...",
-    "success_message": "Thank you! Your message has been sent successfully."
-  },
-  "footer": {
-    "copyright": "© 2025 Mordecai Godwin. All rights reserved."
-  }
 }

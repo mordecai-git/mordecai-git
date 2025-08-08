@@ -1,113 +1,148 @@
 {
-  "header": {
-    "name": "Mordecai Godwin",
-    "title": "Fullstack Developer",
-    "home": "Ile",
-    "about": "Nipa Mi",
-    "experience": "Iriri",
-    "projects": "Awọn Iṣẹ",
-    "contact": "Olubasọrọ"
-  },
-  "hero": {
-    "greeting": "E nlẹ o, Emi ni",
-    "subtitle": "Fullstack Developer ti o ni iriri ọdun marun ni fifunni awọn ohun elo ile-iṣẹ ti o wa lailewu, ti o le gun oke ati ti iṣẹ giga.",
-    "contact_btn": "Jẹ ka sọrọ",
-    "download_cv": "Gba CV sile"
-  },
-  "about": {
-    "title": "Nipa Mi",
-    "description": "Mo nifẹ kikọ koodu ti o wa ni mimọ ati ti o le gun oke ati kikọ ohun elo tuntun nigbagbogbo. Mo ni agbara iṣẹpọ latọna jijin, iriri Agile ati Mo jẹ olukọni igbagbogbo - ni bayi mo n mu idanwo adaṣe ati awọn iṣe aabo lọsiwaju.",
-    "tech_stack": "Tech Stack",
-    "languages": "Awọn Ede Siseto",
-    "technologies": "Awọn Imọ-ẹrọ",
-    "tools": "Awọn Ohun elo",
-    "cloud_devops": "Cloud & DevOps",
-    "spoken_languages": "Awọn Ede Ti Mo Nsọ",
-    "english": "Gẹẹsi",
-    "yoruba": "Yoruba",
-    "igbo": "Igbo",
-    "hausa": "Hausa",
-    "pidgin": "Nigerian Pidgin",
-    "proficiency": {
-      "native": "Ede Abinibi",
-      "fluent": "Mo mọ daradara",
-      "professional": "C1 (Agbara Iṣẹ Kikun)",
-      "intermediate": "Aarin",
-      "basic": "Ipilẹ"
+    "header": {
+        "name": "Mordecai Godwin",
+        "title": "Fullstack Developer",
+        "home": "Ile",
+        "about": "Nipa Mi",
+        "experience": "Iriri",
+        "projects": "Awọn Iṣẹ",
+        "contact": "Olubasọrọ"
+    },
+    "hero": {
+        "greeting": "E nlẹ o, Emi ni",
+        "subtitle": "Fullstack Developer ti o ni iriri ọdun marun ni fifunni awọn ohun elo ile-iṣẹ ti o wa lailewu, ti o le gun oke ati ti iṣẹ giga.",
+        "contact_btn": "Jẹ ka sọrọ",
+        "download_cv": "Gba CV sile"
+    },
+    "about": {
+        "title": "Nipa Mi",
+        "description": "Mo nifẹ kikọ koodu ti o wa ni mimọ ati ti o le gun oke ati kikọ ohun elo tuntun nigbagbogbo. Mo ni agbara iṣẹpọ latọna jijin, iriri Agile ati Mo jẹ olukọni igbagbogbo - ni bayi mo n mu idanwo adaṣe ati awọn iṣe aabo lọsiwaju.",
+        "tech_stack": "Tech Stack",
+        "languages": "Awọn Ede Siseto",
+        "technologies": "Awọn Imọ-ẹrọ",
+        "tools": "Awọn Ohun elo",
+        "cloud_devops": "Cloud & DevOps",
+        "spoken_languages": "Awọn Ede Ti Mo Nsọ",
+        "english": "Gẹẹsi",
+        "yoruba": "Yoruba",
+        "pidgin": "Nigerian Pidgin",
+        "proficiency": {
+            "native": "Ede Abinibi",
+            "fluent": "Mo mọ daradara",
+            "professional": "C1 (Agbara Iṣẹ Kikun)",
+            "intermediate": "Aarin",
+            "basic": "Ipilẹ"
+        },
+        "stats": {
+            "years_experience": "Awọn Ọdun Iriri",
+            "projects_completed": "Awọn Iṣẹ Akanṣe Ti O Pari",
+            "companies": "Awọn Ile-iṣẹ",
+            "certification": "Iwe-ẹri"
+        },
+        "education": {
+            "title": "Eto-ẹkọ & Awọn Iwe-ẹri",
+            "polytechnic_ibadan": "The Polytechnic, Ibadan",
+            "national_diploma": "Diploma Orilẹ-ede (dogba si ẹkọ giga ọdun meji)",
+            "polytechnic_period": "Oṣu Kejila 2016 - Oṣu Kẹwa 2018",
+            "azure_certification": "Microsoft Azure AI Fundamentals",
+            "azure_date": "Oṣu Kejila 2024"
+        }
+    },
+    "experience": {
+        "title": "Iriri Iṣẹ",
+        "present": "Bayi",
+        "companies": {
+            "axa": {
+                "name": "AXA Mansard Insurance Plc",
+                "position": "Fullstack Developer - Hybrid",
+                "period": "Oṣu Kẹrin 2022 - Bayi",
+                "achievements": [
+                    "Mo darí iṣe ati imuse ti Sistema Iṣakoso Asiwaju nipa lilo .NET, Angular 19, ati SQL Server.",
+                    "Mo ṣe awọn ohun aabo, gẹgẹbi fifi kọkọrọ pamọ ati sisọ fun awọn payload ti o ṣe pataki, RBAC.",
+                    "Mo ṣe atunṣe awọn paati atijọ nipa atunṣe awọn ibeere ati awọn ipari lati dinku gbese imọ-ẹrọ, mo si ṣaṣeyọri imuudara iṣẹ 25%.",
+                    "Mo ṣe apọpọ sistema iwifun akoko gidi nipa lilo SignalR, ti o jẹ ki imudojuiwọn oniyipada wa jakejado eto naa.",
+                    "Mo kopa ninu awọn ayẹyẹ Agile (igbero sprint, awọn atunyẹwo, iduro) ati Mo ṣayẹwo awọn ibeere ifa lori Azure DevOps.",
+                    "Mo ṣe alabapin si paipu DevOps, ti o mu ilọsiwaju ni ṣiṣe ni CI/CD ni Azure DevOps.",
+                    "Mo kọ awọn olupilẹṣẹ junior 2 ni awọn atunyẹwo koodu ẹlẹgbẹ ati awọn irin-ajo iṣẹ akanṣe."
+                ]
+            },
+            "harmoni": {
+                "name": "Harmoni Technologies",
+                "position": "Backend Developer - Latọna jijin",
+                "period": "Oṣu Kẹjọ 2021 - Oṣu Kẹrin 2022",
+                "achievements": [
+                    "Mo yi awọn ibeere awọn alabara ati awọn gbólóhùn iṣoro iṣowo pada si Web API ti o le gun ni lilo .NET Core.",
+                    "Mo fi awọn ilana ti o dara julọ le nipa awọn atunyẹwo koodu ati iṣakoso ẹya Git.",
+                    "Mo ṣe apẹrẹ awọn iṣẹ .NET Core Microservices ti o le gun."
+                ]
+            },
+            "bytes": {
+                "name": "Bytes Intel Limited",
+                "position": "Fullstack Developer - Latọna jijin",
+                "period": "Oṣu Kẹwa 2019 - Oṣu Kẹrin 2022",
+                "achievements": [
+                    "Mo gbimọran taara pẹlu awọn alabara lati ṣe agbekalẹ awọn ibeere iṣowo ati ọja.",
+                    "Mo kọ ati ranṣẹ sistema eCommerce ni lilo .NET Framework, Web API ati SQL Server.",
+                    "Mo ṣe idagbasoke ati pese itọju fun awọn oju opo wẹẹbu .NET to tọ mẹrin (4)."
+                ]
+            }
+        }
+    },
+    "projects": {
+        "title": "Awọn Iṣẹ Akanṣe Pataki",
+        "view_project": "Wo Iṣẹ Akanṣe",
+        "view_code": "Wo Koodu",
+        "view": "Wo",
+        "code": "Koodu",
+        "featured": "Pataki",
+        "view_more_projects": "Wo Awọn Iṣẹ Akanṣe Diẹ Sii",
+        "mymonie": {
+            "title": "MyMonie",
+            "description": "Sọfitiwia itumo owo ati itupalẹ. Mo kọ ipilẹ itumo owo ati iṣuna pẹlu .NET 8 ati Angular. Ni bayi mo n ṣe iwadii isọdọkan GPT API fun awọn ẹya iṣuna ọlọgbọn.",
+            "status": "N lọ"
+        },
+        "lead_management": {
+            "title": "Eto Iṣakoso Lead",
+            "description": "Eto iṣakoso lead ipele ile-iṣẹ pẹlu awọn iwifun akoko gidi ati RBAC."
+        },
+        "ecommerce": {
+            "title": "Pẹpẹ eCommerce",
+            "description": "Eto eCommerce pipe pẹlu isọdọkan sisanwo ati iṣakoso inifura."
+        }
+    },
+    "contact": {
+        "title": "Jẹ ka sọrọ",
+        "subtitle": "Jẹ ki a ṣiṣẹ papọ lati mu awọn imọran rẹ wa si aye",
+        "lets_connect": "Jẹ ki a darapọ",
+        "connect_description": "Mo nifẹ nigbagbogbo lati gbọ nipa awọn aye tuntun ati awọn iṣẹ akanṣe ti o dun. Boya o ni ibeere tabi o kan fẹ ki o kí mi, Emi yoo gbiyanju mi julọ lati pada si ọ!",
+        "location": "Eko, Nigeria",
+        "phone": "+2347084385093",
+        "email": "davidire71@gmail.com",
+        "follow_me": "Tẹle Mi",
+        "send_message": "Fi Ifiranṣẹ Ranṣẹ",
+        "name": "Orukọ",
+        "name_placeholder": "Orukọ Rẹ",
+        "email_placeholder": "your.email@example.com",
+        "subject": "Koko-ọrọ",
+        "subject_placeholder": "Kini eyi nipa?",
+        "message": "Ifiranṣẹ",
+        "message_placeholder": "Sọ fun mi nipa iṣẹ akanṣe rẹ tabi kan ki mi!",
+        "submit": "Fi ranṣẹ",
+        "sending": "N fi ranṣẹ...",
+        "success_message": "O ṣeun! Ifiranṣẹ rẹ ti ranṣẹ ni aṣeyọri."
+    },
+    "footer": {
+        "copyright": "© 2025 Mordecai Godwin. Gbogbo ẹtọ wa ni ipamọ.",
+        "brand_description": "Fullstack Developer ti o ni ifẹ si ṣiṣẹda awọn ohun elo aabo, scalable, ati iṣẹ giga.",
+        "quick_links": "Awọn Ọna Asọye Kiakia",
+        "contact_info": "Alaye Olubasọrọ",
+        "home": "Ile",
+        "about": "Nipa Mi",
+        "experience": "Iriri",
+        "projects": "Awọn Iṣẹ",
+        "contact": "Olubasọrọ",
+        "location": "Lagos, Nigeria",
+        "privacy_policy": "Eto Aṣiri",
+        "terms_of_service": "Awọn Ofin Iṣẹ"
     }
-  },
-  "experience": {
-    "title": "Iriri Iṣẹ",
-    "present": "Bayi",
-    "companies": {
-      "axa": {
-        "name": "AXA Mansard Insurance Plc",
-        "position": "Fullstack Developer - Hybrid",
-        "period": "Oṣu Kẹrin 2022 - Bayi",
-        "achievements": [
-          "Mo darí iṣe ati imuse ti Sistema Iṣakoso Asiwaju nipa lilo .NET, Angular 19, ati SQL Server.",
-          "Mo ṣe awọn ohun aabo, gẹgẹbi fifi kọkọrọ pamọ ati sisọ fun awọn payload ti o ṣe pataki, RBAC.",
-          "Mo ṣe atunṣe awọn paati atijọ nipa atunṣe awọn ibeere ati awọn ipari lati dinku gbese imọ-ẹrọ, mo si ṣaṣeyọri imuudara iṣẹ 25%.",
-          "Mo ṣe apọpọ sistema iwifun akoko gidi nipa lilo SignalR, ti o jẹ ki imudojuiwọn oniyipada wa jakejado eto naa.",
-          "Mo kopa ninu awọn ayẹyẹ Agile (igbero sprint, awọn atunyẹwo, iduro) ati Mo ṣayẹwo awọn ibeere ifa lori Azure DevOps.",
-          "Mo ṣe alabapin si paipu DevOps, ti o mu ilọsiwaju ni ṣiṣe ni CI/CD ni Azure DevOps.",
-          "Mo kọ awọn olupilẹṣẹ junior 2 ni awọn atunyẹwo koodu ẹlẹgbẹ ati awọn irin-ajo iṣẹ akanṣe."
-        ]
-      },
-      "harmoni": {
-        "name": "Harmoni Technologies",
-        "position": "Backend Developer - Latọna jijin",
-        "period": "Oṣu Kẹjọ 2021 - Oṣu Kẹrin 2022",
-        "achievements": [
-          "Mo yi awọn ibeere awọn alabara ati awọn gbólóhùn iṣoro iṣowo pada si Web API ti o le gun ni lilo .NET Core.",
-          "Mo fi awọn ilana ti o dara julọ le nipa awọn atunyẹwo koodu ati iṣakoso ẹya Git.",
-          "Mo ṣe apẹrẹ awọn iṣẹ .NET Core Microservices ti o le gun."
-        ]
-      },
-      "bytes": {
-        "name": "Bytes Intel Limited",
-        "position": "Fullstack Developer - Latọna jijin",
-        "period": "Oṣu Kẹwa 2019 - Oṣu Kẹrin 2022",
-        "achievements": [
-          "Mo gbimọran taara pẹlu awọn alabara lati ṣe agbekalẹ awọn ibeere iṣowo ati ọja.",
-          "Mo kọ ati ranṣẹ sistema eCommerce ni lilo .NET Framework, Web API ati SQL Server.",
-          "Mo ṣe idagbasoke ati pese itọju fun awọn oju opo wẹẹbu .NET to tọ mẹrin (4)."
-        ]
-      }
-    }
-  },
-  "projects": {
-    "title": "Awọn Iṣẹ Akanṣe Pataki",
-    "view_project": "Wo Iṣẹ Akanṣe",
-    "view_code": "Wo Koodu",
-    "mymonie": {
-      "title": "MyMonie",
-      "description": "Sọfitiwia itumo owo ati itupalẹ. Mo kọ ipilẹ itumo owo ati iṣuna pẹlu .NET 8 ati Angular. Ni bayi mo n ṣe iwadii isọdọkan GPT API fun awọn ẹya iṣuna ọlọgbọn.",
-      "status": "N lọ"
-    }
-  },
-  "contact": {
-    "title": "Jẹ ka sọrọ",
-    "subtitle": "Jẹ ki a ṣiṣẹ papọ lati mu awọn imọran rẹ wa si aye",
-    "lets_connect": "Jẹ ki a darapọ",
-    "connect_description": "Mo nifẹ nigbagbogbo lati gbọ nipa awọn aye tuntun ati awọn iṣẹ akanṣe ti o dun. Boya o ni ibeere tabi o kan fẹ ki o kí mi, Emi yoo gbiyanju mi julọ lati pada si ọ!",
-    "location": "Eko, Nigeria",
-    "phone": "+2347084385093",
-    "email": "davidire71@gmail.com",
-    "follow_me": "Tẹle Mi",
-    "send_message": "Fi Ifiranṣẹ Ranṣẹ",
-    "name": "Orukọ",
-    "name_placeholder": "Orukọ Rẹ",
-    "email_placeholder": "your.email@example.com",
-    "subject": "Koko-ọrọ",
-    "subject_placeholder": "Kini eyi nipa?",
-    "message": "Ifiranṣẹ",
-    "message_placeholder": "Sọ fun mi nipa iṣẹ akanṣe rẹ tabi kan ki mi!",
-    "submit": "Fi ranṣẹ",
-    "sending": "N fi ranṣẹ...",
-    "success_message": "O ṣeun! Ifiranṣẹ rẹ ti ranṣẹ ni aṣeyọri."
-  },
-  "footer": {
-    "copyright": "© 2025 Mordecai Godwin. Gbogbo ẹtọ wa ni ipamọ."
-  }
 }

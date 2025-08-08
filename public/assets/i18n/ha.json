@@ -1,113 +1,148 @@
 {
-  "header": {
-    "name": "Mordecai Godwin",
-    "title": "Fullstack Developer",
-    "home": "Gida",
-    "about": "Game da Ni",
-    "experience": "Gogewa",
-    "projects": "Ayyuka",
-    "contact": "Tuntuɓar"
-  },
-  "hero": {
-    "greeting": "Sannu, ni ne",
-    "subtitle": "Fullstack Developer mai gogewa na shekaru biyar wajen samar da manhajoji kasuwanci masu tsaro, masu girma da babban aiki.",
-    "contact_btn": "Mu yi hira",
-    "download_cv": "Sauke CV"
-  },
-  "about": {
-    "title": "Game da Ni",
-    "description": "Ina sha'awar rubuta lambar da take da tsabta da girma da koyan sabbin kayan aiki koyaushe. Ina da ƙarfin haɗin gwiwa na nesa, gogewa na Agile kuma ni mai koyo ne koyaushe - yanzu ina ƙarfafa gwajin atomatik da ayyukan tsaro.",
-    "tech_stack": "Tech Stack",
-    "languages": "Yarukan Shirye-shirye",
-    "technologies": "Fasahohi",
-    "tools": "Kayan Aiki",
-    "cloud_devops": "Cloud & DevOps",
-    "spoken_languages": "Yarukan da Nake Magana",
-    "english": "Turanci",
-    "yoruba": "Yoruba",
-    "igbo": "Igbo",
-    "hausa": "Hausa",
-    "pidgin": "Nigerian Pidgin",
-    "proficiency": {
-      "native": "Na Asali",
-      "fluent": "Na iya sosai",
-      "professional": "C1 (Cikakken Ƙwarewar Aiki)",
-      "intermediate": "Matsakaici",
-      "basic": "Na farko"
+    "header": {
+        "name": "Mordecai Godwin",
+        "title": "Fullstack Developer",
+        "home": "Gida",
+        "about": "Game da Ni",
+        "experience": "Gogewa",
+        "projects": "Ayyuka",
+        "contact": "Tuntuɓar"
+    },
+    "hero": {
+        "greeting": "Sannu, ni ne",
+        "subtitle": "Fullstack Developer mai gogewa na shekaru biyar wajen samar da manhajoji kasuwanci masu tsaro, masu girma da babban aiki.",
+        "contact_btn": "Mu yi hira",
+        "download_cv": "Sauke CV"
+    },
+    "about": {
+        "title": "Game da Ni",
+        "description": "Ina sha'awar rubuta lambar da take da tsabta da girma da koyan sabbin kayan aiki koyaushe. Ina da ƙarfin haɗin gwiwa na nesa, gogewa na Agile kuma ni mai koyo ne koyaushe - yanzu ina ƙarfafa gwajin atomatik da ayyukan tsaro.",
+        "tech_stack": "Tech Stack",
+        "languages": "Yarukan Shirye-shirye",
+        "technologies": "Fasahohi",
+        "tools": "Kayan Aiki",
+        "cloud_devops": "Cloud & DevOps",
+        "spoken_languages": "Yarukan da Nake Magana",
+        "english": "Turanci",
+        "yoruba": "Yoruba",
+        "pidgin": "Nigerian Pidgin",
+        "proficiency": {
+            "native": "Na Asali",
+            "fluent": "Na iya sosai",
+            "professional": "C1 (Cikakken Ƙwarewar Aiki)",
+            "intermediate": "Matsakaici",
+            "basic": "Na farko"
+        },
+        "stats": {
+            "years_experience": "Shekarun Gogewa",
+            "projects_completed": "Ayyukan da aka Kammala",
+            "companies": "Kamfanoni",
+            "certification": "Takardar Shaidar"
+        },
+        "education": {
+            "title": "Ilimi & Takardun Shaida",
+            "polytechnic_ibadan": "The Polytechnic, Ibadan",
+            "national_diploma": "National Diploma (daidai da digiri na babban makaranta na shekaru biyu)",
+            "polytechnic_period": "Disamba 2016 - Oktoba 2018",
+            "azure_certification": "Microsoft Azure AI Fundamentals",
+            "azure_date": "Dis. 2024"
+        }
+    },
+    "experience": {
+        "title": "Gogewa na Aiki",
+        "present": "Yanzu",
+        "companies": {
+            "axa": {
+                "name": "AXA Mansard Insurance Plc",
+                "position": "Fullstack Developer - Hybrid",
+                "period": "Afrilu 2022 - Yanzu",
+                "achievements": [
+                    "Na jagoranci gine-gine da aiwatar da Tsarin Sarrafa Jagora ta amfani da .NET, Angular 19, da SQL Server.",
+                    "Na aiwatar da matakan tsaro, kamar ɓoyewa da buɗewa don mahimman kaya, RBAC.",
+                    "Na sabunta abubuwan gado ta hanyar sake fasalin tambayoyi da ƙarshen don rage bashin fasaha, kuma na cimma haɓakar aiki 25%.",
+                    "Na haɗa tsarin sanarwa na ainihi ta amfani da SignalR, wanda ke ba da damar sabuntawa masu canzawa a cikin dandamali.",
+                    "Na shiga cikin bukukuwan Agile (shirye-shiryen sprint, sake dubawa, tsayawa) kuma na sake duba buƙatun cirewa a Azure DevOps.",
+                    "Na ba da gudummawa ga bututun DevOps, yana inganta inganci a CI/CD a Azure DevOps.",
+                    "Na koyar da masu haɓakawa ƙanana 2 a cikin sake duban lambar takwarorinsu da yawo na ayyuka."
+                ]
+            },
+            "harmoni": {
+                "name": "Harmoni Technologies",
+                "position": "Backend Developer - Nesa",
+                "period": "Agusta 2021 - Afrilu 2022",
+                "achievements": [
+                    "Na canza buƙatun abokan ciniki da bayanin matsalolin kasuwanci zuwa Web API mai girma ta amfani da .NET Core.",
+                    "Na tilasta mafi kyawun ayyuka ta hanyar sake duba lambar da sarrafa sigar Git.",
+                    "Na ƙirƙira .NET Core Microservices masu girma."
+                ]
+            },
+            "bytes": {
+                "name": "Bytes Intel Limited",
+                "position": "Fullstack Developer - Nesa",
+                "period": "Oktoba 2019 - Afrilu 2022",
+                "achievements": [
+                    "Na ba da shawara kai tsaye tare da abokan ciniki don kafa buƙatun kasuwanci da samfur.",
+                    "Na gina kuma na tura tsarin eCommerce ta amfani da .NET Framework, Web API da SQL Server.",
+                    "Na haɓaka kuma na ba da kulawa har zuwa gidajen yanar gizo .NET huɗu (4)."
+                ]
+            }
+        }
+    },
+    "projects": {
+        "title": "Ayyukan da aka Zaɓa",
+        "view_project": "Duba Aikin",
+        "view_code": "Duba Lambar",
+        "view": "Duba",
+        "code": "Lambar",
+        "featured": "An Zaɓa",
+        "view_more_projects": "Duba Ƙarin Ayyuka",
+        "mymonie": {
+            "title": "MyMonie",
+            "description": "Software na bin kuɗi da nazari. Na gina ainihin bin kuɗi da kasafin kuɗi tare da .NET 8 da Angular. Yanzu ina binciken haɗin GPT API don fasaloli na kasafin kuɗi mai hankali.",
+            "status": "Ana ci gaba"
+        },
+        "lead_management": {
+            "title": "Tsarin Gudanar da Lead",
+            "description": "Tsarin gudanar da lead na matakin kamfani tare da sanarwa na lokaci-lokaci da RBAC."
+        },
+        "ecommerce": {
+            "title": "Dandali na eCommerce",
+            "description": "Cikakken tsarin eCommerce tare da haɗin biyan kuɗi da kula da kaya."
+        }
+    },
+    "contact": {
+        "title": "Mu yi hira",
+        "subtitle": "Mu yi aiki tare don kawo tunaninku zuwa rayuwa",
+        "lets_connect": "Mu haɗu",
+        "connect_description": "Koyaushe ina sha'awar jin labarin sabbin damammaki da ayyuka masu ban sha'awa. Ko kuna da tambaya ko kawai kuna son ku ce sannu, zan yi iya kokari na iya dawowa gare ku!",
+        "location": "Lagos, Najeriya",
+        "phone": "+2347084385093",
+        "email": "davidire71@gmail.com",
+        "follow_me": "Bi Ni",
+        "send_message": "Aika Sako",
+        "name": "Suna",
+        "name_placeholder": "Sunan Ku",
+        "email_placeholder": "your.email@example.com",
+        "subject": "Batun",
+        "subject_placeholder": "Menene wannan game da?",
+        "message": "Sako",
+        "message_placeholder": "Gaya mini game da aikinku ko kawai ku ce sannu!",
+        "submit": "Aika",
+        "sending": "Ana aikawa...",
+        "success_message": "Na gode! An aika sakonku cikin nasara."
+    },
+    "footer": {
+        "copyright": "© 2025 Mordecai Godwin. Duk haƙƙoƙin ajiye.",
+        "brand_description": "Fullstack Developer mai sha'awar ƙirƙira aikace-aikacen amintacce, masu iya faɗaɗa, da ingantaccen aiki.",
+        "quick_links": "Hanyoyin Sauri",
+        "contact_info": "Bayanan Tuntuɓa",
+        "home": "Gida",
+        "about": "Game da Ni",
+        "experience": "Gogewa",
+        "projects": "Ayyuka",
+        "contact": "Tuntuɓa",
+        "location": "Lagos, Nigeria",
+        "privacy_policy": "Manufar Sirri",
+        "terms_of_service": "Sharuɗɗan Sabis"
     }
-  },
-  "experience": {
-    "title": "Gogewa na Aiki",
-    "present": "Yanzu",
-    "companies": {
-      "axa": {
-        "name": "AXA Mansard Insurance Plc",
-        "position": "Fullstack Developer - Hybrid",
-        "period": "Afrilu 2022 - Yanzu",
-        "achievements": [
-          "Na jagoranci gine-gine da aiwatar da Tsarin Sarrafa Jagora ta amfani da .NET, Angular 19, da SQL Server.",
-          "Na aiwatar da matakan tsaro, kamar ɓoyewa da buɗewa don mahimman kaya, RBAC.",
-          "Na sabunta abubuwan gado ta hanyar sake fasalin tambayoyi da ƙarshen don rage bashin fasaha, kuma na cimma haɓakar aiki 25%.",
-          "Na haɗa tsarin sanarwa na ainihi ta amfani da SignalR, wanda ke ba da damar sabuntawa masu canzawa a cikin dandamali.",
-          "Na shiga cikin bukukuwan Agile (shirye-shiryen sprint, sake dubawa, tsayawa) kuma na sake duba buƙatun cirewa a Azure DevOps.",
-          "Na ba da gudummawa ga bututun DevOps, yana inganta inganci a CI/CD a Azure DevOps.",
-          "Na koyar da masu haɓakawa ƙanana 2 a cikin sake duban lambar takwarorinsu da yawo na ayyuka."
-        ]
-      },
-      "harmoni": {
-        "name": "Harmoni Technologies",
-        "position": "Backend Developer - Nesa",
-        "period": "Agusta 2021 - Afrilu 2022",
-        "achievements": [
-          "Na canza buƙatun abokan ciniki da bayanin matsalolin kasuwanci zuwa Web API mai girma ta amfani da .NET Core.",
-          "Na tilasta mafi kyawun ayyuka ta hanyar sake duba lambar da sarrafa sigar Git.",
-          "Na ƙirƙira .NET Core Microservices masu girma."
-        ]
-      },
-      "bytes": {
-        "name": "Bytes Intel Limited",
-        "position": "Fullstack Developer - Nesa",
-        "period": "Oktoba 2019 - Afrilu 2022",
-        "achievements": [
-          "Na ba da shawara kai tsaye tare da abokan ciniki don kafa buƙatun kasuwanci da samfur.",
-          "Na gina kuma na tura tsarin eCommerce ta amfani da .NET Framework, Web API da SQL Server.",
-          "Na haɓaka kuma na ba da kulawa har zuwa gidajen yanar gizo .NET huɗu (4)."
-        ]
-      }
-    }
-  },
-  "projects": {
-    "title": "Ayyukan da aka Zaɓa",
-    "view_project": "Duba Aikin",
-    "view_code": "Duba Lambar",
-    "mymonie": {
-      "title": "MyMonie",
-      "description": "Software na bin kuɗi da nazari. Na gina ainihin bin kuɗi da kasafin kuɗi tare da .NET 8 da Angular. Yanzu ina binciken haɗin GPT API don fasaloli na kasafin kuɗi mai hankali.",
-      "status": "Ana ci gaba"
-    }
-  },
-  "contact": {
-    "title": "Mu yi hira",
-    "subtitle": "Mu yi aiki tare don kawo tunaninku zuwa rayuwa",
-    "lets_connect": "Mu haɗu",
-    "connect_description": "Koyaushe ina sha'awar jin labarin sabbin damammaki da ayyuka masu ban sha'awa. Ko kuna da tambaya ko kawai kuna son ku ce sannu, zan yi iya kokari na iya dawowa gare ku!",
-    "location": "Lagos, Najeriya",
-    "phone": "+2347084385093",
-    "email": "davidire71@gmail.com",
-    "follow_me": "Bi Ni",
-    "send_message": "Aika Sako",
-    "name": "Suna",
-    "name_placeholder": "Sunan Ku",
-    "email_placeholder": "your.email@example.com",
-    "subject": "Batun",
-    "subject_placeholder": "Menene wannan game da?",
-    "message": "Sako",
-    "message_placeholder": "Gaya mini game da aikinku ko kawai ku ce sannu!",
-    "submit": "Aika",
-    "sending": "Ana aikawa...",
-    "success_message": "Na gode! An aika sakonku cikin nasara."
-  },
-  "footer": {
-    "copyright": "© 2025 Mordecai Godwin. Duk haƙƙoƙin ajiye."
-  }
 }

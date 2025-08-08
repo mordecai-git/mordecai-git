@@ -5,16 +5,15 @@ import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-contact',
-  standalone: true,
   imports: [CommonModule, FormsModule, TranslateModule],
-  templateUrl: './contact.component.html'
+  templateUrl: './contact.component.html',
 })
 export class ContactComponent {
   formData = {
     name: '',
     email: '',
     subject: '',
-    message: ''
+    message: '',
   };
 
   isSubmitting = false;
@@ -35,7 +34,7 @@ export class ContactComponent {
         name: '',
         email: '',
         subject: '',
-        message: ''
+        message: '',
       };
 
       // Hide success message after 5 seconds

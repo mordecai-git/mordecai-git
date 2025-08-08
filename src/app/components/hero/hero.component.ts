@@ -4,9 +4,8 @@ import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-hero',
-  standalone: true,
   imports: [CommonModule, TranslateModule],
-  templateUrl: './hero.component.html'
+  templateUrl: './hero.component.html',
 })
 export class HeroComponent {
   scrollToSection(sectionId: string): void {

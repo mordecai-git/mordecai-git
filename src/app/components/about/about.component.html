@@ -1,118 +1,95 @@
-<section id="about" class="py-20 px-6">
+<section id="about" class="px-6 py-20">
   <div class="container mx-auto">
-    <div class="text-center mb-16">
-      <h2 class="text-4xl lg:text-5xl font-bold mb-6">
-        <span
-          class="bg-gradient-to-r from-primary-400 to-primary-600 bg-clip-text text-transparent"
-        >
-          {{ "about.title" | translate }}
+    <div class="mb-16 text-center">
+      <h2 class="mb-6 text-4xl font-bold lg:text-5xl">
+        <span class="bg-gradient-to-r from-primary-400 to-primary-600 bg-clip-text text-transparent">
+          {{ 'about.title' | translate }}
         </span>
       </h2>
-      <p class="text-xl text-gray-400 max-w-3xl mx-auto">
-        {{ "about.description" | translate }}
+      <p class="mx-auto max-w-3xl text-xl text-gray-400">
+        {{ 'about.description' | translate }}
       </p>
     </div>
 
-    <div class="grid lg:grid-cols-2 gap-12 items-center">
+    <div class="grid items-center gap-12 lg:grid-cols-2">
       <!-- Tech Stack Cards -->
       <div class="space-y-8">
         <!-- Languages -->
         <div
-          class="bg-dark-800/50 backdrop-blur-sm rounded-xl p-6 border border-dark-700 hover:border-primary-500/50 transition-all duration-300"
-        >
-          <h3
-            class="text-xl font-semibold text-primary-400 mb-4 flex items-center"
-          >
-            <svg class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 20 20">
+          class="rounded-xl border border-dark-700 bg-dark-800/50 p-6 backdrop-blur-sm transition-all duration-300 hover:border-primary-500/50">
+          <h3 class="mb-4 flex items-center text-xl font-semibold text-primary-400">
+            <svg class="mr-2 h-6 w-6" fill="currentColor" viewBox="0 0 20 20">
               <path
                 fill-rule="evenodd"
                 d="M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 11-1.898-.632l4-12a1 1 0 011.265-.633zM5.707 6.293a1 1 0 010 1.414L3.414 10l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm8.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L16.586 10l-2.293-2.293a1 1 0 010-1.414z"
-                clip-rule="evenodd"
-              />
+                clip-rule="evenodd" />
             </svg>
-            {{ "about.languages" | translate }}
+            {{ 'about.languages' | translate }}
           </h3>
           <div class="flex flex-wrap gap-2">
-            <span
-              *ngFor="let lang of languages"
-              class="px-3 py-1 bg-primary-500/20 text-primary-300 rounded-full text-sm border border-primary-500/30"
-            >
-              {{ lang }}
-            </span>
+            @for (lang of languages; track lang) {
+              <span class="rounded-full border border-primary-500/30 bg-primary-500/20 px-3 py-1 text-sm text-primary-300">
+                {{ lang }}
+              </span>
+            }
           </div>
         </div>
 
         <!-- Technologies -->
         <div
-          class="bg-dark-800/50 backdrop-blur-sm rounded-xl p-6 border border-dark-700 hover:border-primary-500/50 transition-all duration-300"
-        >
-          <h3
-            class="text-xl font-semibold text-primary-400 mb-4 flex items-center"
-          >
-            <svg class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 20 20">
+          class="rounded-xl border border-dark-700 bg-dark-800/50 p-6 backdrop-blur-sm transition-all duration-300 hover:border-primary-500/50">
+          <h3 class="mb-4 flex items-center text-xl font-semibold text-primary-400">
+            <svg class="mr-2 h-6 w-6" fill="currentColor" viewBox="0 0 20 20">
               <path
-                d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"
-              />
+                d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z" />
             </svg>
-            {{ "about.technologies" | translate }}
+            {{ 'about.technologies' | translate }}
           </h3>
           <div class="flex flex-wrap gap-2">
-            <span
-              *ngFor="let tech of technologies"
-              class="px-3 py-1 bg-primary-500/20 text-primary-300 rounded-full text-sm border border-primary-500/30"
-            >
-              {{ tech }}
-            </span>
+            @for (tech of technologies; track tech) {
+              <span class="rounded-full border border-primary-500/30 bg-primary-500/20 px-3 py-1 text-sm text-primary-300">
+                {{ tech }}
+              </span>
+            }
           </div>
         </div>
 
         <!-- Tools -->
         <div
-          class="bg-dark-800/50 backdrop-blur-sm rounded-xl p-6 border border-dark-700 hover:border-primary-500/50 transition-all duration-300"
-        >
-          <h3
-            class="text-xl font-semibold text-primary-400 mb-4 flex items-center"
-          >
-            <svg class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 20 20">
+          class="rounded-xl border border-dark-700 bg-dark-800/50 p-6 backdrop-blur-sm transition-all duration-300 hover:border-primary-500/50">
+          <h3 class="mb-4 flex items-center text-xl font-semibold text-primary-400">
+            <svg class="mr-2 h-6 w-6" fill="currentColor" viewBox="0 0 20 20">
               <path
                 fill-rule="evenodd"
                 d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z"
-                clip-rule="evenodd"
-              />
+                clip-rule="evenodd" />
             </svg>
-            {{ "about.tools" | translate }}
+            {{ 'about.tools' | translate }}
           </h3>
           <div class="flex flex-wrap gap-2">
-            <span
-              *ngFor="let tool of tools"
-              class="px-3 py-1 bg-primary-500/20 text-primary-300 rounded-full text-sm border border-primary-500/30"
-            >
-              {{ tool }}
-            </span>
+            @for (tool of tools; track tool) {
+              <span class="rounded-full border border-primary-500/30 bg-primary-500/20 px-3 py-1 text-sm text-primary-300">
+                {{ tool }}
+              </span>
+            }
           </div>
         </div>
 
         <!-- Cloud & DevOps -->
         <div
-          class="bg-dark-800/50 backdrop-blur-sm rounded-xl p-6 border border-dark-700 hover:border-primary-500/50 transition-all duration-300"
-        >
-          <h3
-            class="text-xl font-semibold text-primary-400 mb-4 flex items-center"
-          >
-            <svg class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 20 20">
-              <path
-                d="M5.5 16a3.5 3.5 0 01-.369-6.98 4 4 0 117.753-1.977A4.5 4.5 0 1113.5 16h-8z"
-              />
+          class="rounded-xl border border-dark-700 bg-dark-800/50 p-6 backdrop-blur-sm transition-all duration-300 hover:border-primary-500/50">
+          <h3 class="mb-4 flex items-center text-xl font-semibold text-primary-400">
+            <svg class="mr-2 h-6 w-6" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M5.5 16a3.5 3.5 0 01-.369-6.98 4 4 0 117.753-1.977A4.5 4.5 0 1113.5 16h-8z" />
             </svg>
-            {{ "about.cloud_devops" | translate }}
+            {{ 'about.cloud_devops' | translate }}
           </h3>
           <div class="flex flex-wrap gap-2">
-            <span
-              *ngFor="let cloud of cloudDevOps"
-              class="px-3 py-1 bg-primary-500/20 text-primary-300 rounded-full text-sm border border-primary-500/30"
-            >
-              {{ cloud }}
-            </span>
+            @for (cloud of cloudDevOps; track cloud) {
+              <span class="rounded-full border border-primary-500/30 bg-primary-500/20 px-3 py-1 text-sm text-primary-300">
+                {{ cloud }}
+              </span>
+            }
           </div>
         </div>
       </div>
@@ -121,96 +98,57 @@
       <div class="space-y-8">
         <!-- Experience Stats -->
         <div class="grid grid-cols-2 gap-6">
-          <div
-            class="text-center p-6 bg-dark-800/50 backdrop-blur-sm rounded-xl border border-dark-700"
-          >
-            <div class="text-4xl font-bold text-primary-400 mb-2">5+</div>
-            <div class="text-gray-400">Years Experience</div>
+          <div class="rounded-xl border border-dark-700 bg-dark-800/50 p-6 text-center backdrop-blur-sm">
+            <div class="mb-2 text-4xl font-bold text-primary-400">5+</div>
+            <div class="text-gray-400">{{ 'about.stats.years_experience' | translate }}</div>
           </div>
-          <div
-            class="text-center p-6 bg-dark-800/50 backdrop-blur-sm rounded-xl border border-dark-700"
-          >
-            <div class="text-4xl font-bold text-primary-400 mb-2">10+</div>
-            <div class="text-gray-400">Projects Completed</div>
+          <div class="rounded-xl border border-dark-700 bg-dark-800/50 p-6 text-center backdrop-blur-sm">
+            <div class="mb-2 text-4xl font-bold text-primary-400">10+</div>
+            <div class="text-gray-400">{{ 'about.stats.projects_completed' | translate }}</div>
           </div>
-          <div
-            class="text-center p-6 bg-dark-800/50 backdrop-blur-sm rounded-xl border border-dark-700"
-          >
-            <div class="text-4xl font-bold text-primary-400 mb-2">3</div>
-            <div class="text-gray-400">Companies</div>
+          <div class="rounded-xl border border-dark-700 bg-dark-800/50 p-6 text-center backdrop-blur-sm">
+            <div class="mb-2 text-4xl font-bold text-primary-400">3</div>
+            <div class="text-gray-400">{{ 'about.stats.companies' | translate }}</div>
           </div>
-          <div
-            class="text-center p-6 bg-dark-800/50 backdrop-blur-sm rounded-xl border border-dark-700"
-          >
-            <div class="text-4xl font-bold text-primary-400 mb-2">1</div>
-            <div class="text-gray-400">Certification</div>
+          <div class="rounded-xl border border-dark-700 bg-dark-800/50 p-6 text-center backdrop-blur-sm">
+            <div class="mb-2 text-4xl font-bold text-primary-400">1</div>
+            <div class="text-gray-400">{{ 'about.stats.certification' | translate }}</div>
           </div>
         </div>
 
         <!-- Education & Certification -->
-        <div
-          class="bg-dark-800/50 backdrop-blur-sm rounded-xl p-6 border border-dark-700"
-        >
-          <h3 class="text-xl font-semibold text-primary-400 mb-6">
-            Education & Certifications
-          </h3>
+        <div class="rounded-xl border border-dark-700 bg-dark-800/50 p-6 backdrop-blur-sm">
+          <h3 class="mb-6 text-xl font-semibold text-primary-400">{{ 'about.education.title' | translate }}</h3>
           <div class="space-y-4">
             <div class="border-l-2 border-primary-500 pl-4">
-              <h4 class="font-semibold text-white">The Polytechnic, Ibadan</h4>
-              <p class="text-gray-400">
-                National Diploma (equivalent to a 2-year higher education
-                degree)
-              </p>
-              <p class="text-sm text-primary-400">
-                December 2016 - October 2018
-              </p>
+              <h4 class="font-semibold text-white">{{ 'about.education.polytechnic_ibadan' | translate }}</h4>
+              <p class="text-gray-400">{{ 'about.education.national_diploma' | translate }}</p>
+              <p class="text-sm text-primary-400">{{ 'about.education.polytechnic_period' | translate }}</p>
             </div>
             <div class="border-l-2 border-primary-500 pl-4">
-              <h4 class="font-semibold text-white">
-                Microsoft Azure AI Fundamentals
-              </h4>
-              <p class="text-gray-400">Dec. 2024</p>
+              <h4 class="font-semibold text-white">{{ 'about.education.azure_certification' | translate }}</h4>
+              <p class="text-gray-400">{{ 'about.education.azure_date' | translate }}</p>
             </div>
           </div>
         </div>
 
         <!-- Languages -->
-        <div
-          class="bg-dark-800/50 backdrop-blur-sm rounded-xl p-6 border border-dark-700"
-        >
-          <h3 class="text-xl font-semibold text-primary-400 mb-6">
-            {{ "about.spoken_languages" | translate }}
+        <div class="rounded-xl border border-dark-700 bg-dark-800/50 p-6 backdrop-blur-sm">
+          <h3 class="mb-6 text-xl font-semibold text-primary-400">
+            {{ 'about.spoken_languages' | translate }}
           </h3>
           <div class="space-y-3">
-            <div class="flex justify-between items-center">
-              <span class="text-white">{{ "about.english" | translate }}</span>
-              <span class="text-primary-400">{{
-                "about.proficiency.professional" | translate
-              }}</span>
+            <div class="flex items-center justify-between">
+              <span class="text-white">{{ 'about.english' | translate }}</span>
+              <span class="text-primary-400">{{ 'about.proficiency.professional' | translate }}</span>
             </div>
-            <div class="flex justify-between items-center">
-              <span class="text-white">{{ "about.yoruba" | translate }}</span>
-              <span class="text-primary-400">{{
-                "about.proficiency.native" | translate
-              }}</span>
+            <div class="flex items-center justify-between">
+              <span class="text-white">{{ 'about.yoruba' | translate }}</span>
+              <span class="text-primary-400">{{ 'about.proficiency.native' | translate }}</span>
             </div>
-            <div class="flex justify-between items-center">
-              <span class="text-white">{{ "about.pidgin" | translate }}</span>
-              <span class="text-primary-400">{{
-                "about.proficiency.fluent" | translate
-              }}</span>
-            </div>
-            <div class="flex justify-between items-center">
-              <span class="text-white">{{ "about.igbo" | translate }}</span>
-              <span class="text-primary-400">{{
-                "about.proficiency.intermediate" | translate
-              }}</span>
-            </div>
-            <div class="flex justify-between items-center">
-              <span class="text-white">{{ "about.hausa" | translate }}</span>
-              <span class="text-primary-400">{{
-                "about.proficiency.basic" | translate
-              }}</span>
+            <div class="flex items-center justify-between">
+              <span class="text-white">{{ 'about.pidgin' | translate }}</span>
+              <span class="text-primary-400">{{ 'about.proficiency.fluent' | translate }}</span>
             </div>
           </div>
         </div>
