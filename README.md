@@ -1,7 +1,7 @@
 # Hey there! 👋 I'm Mordecai Godwin
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00D4AA&width=435&lines=Fullstack+Developer;5%2B+Years+Experience;Clean+Code+Enthusiast;Continuous+Learner" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00D4AA&width=435&lines=Fullstack+Developer;6%2B+Years+Experience;Clean+Code+Enthusiast;Continuous+Learner" alt="Typing SVG" />
 </div>
 
 ## 🚀 About Me
@@ -48,13 +48,13 @@ I'm a passionate **Fullstack Developer** with **6+ years** of experience craftin
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=mordecai-git&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" />
+  <!-- <img src="https://github-readme-stats.vercel.app/api?username=mordecai-git&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" /> -->
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=mordecai-git&theme=radical&hide_border=true" alt="GitHub Streak" />
 </div>
 
-<div align="center">
+<!-- <div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mordecai-git&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
-</div>
+</div> -->
 
 ## 🌟 Fun Facts
 
