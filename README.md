@@ -6,7 +6,7 @@
 
 ## 🚀 About Me
 
-I'm a passionate **Fullstack Developer** with **5+ years** of experience crafting secure, scalable, and high-performance enterprise applications. When I'm not coding, you'll find me exploring new technologies, mentoring fellow developers, or enjoying a good cup of coffee while debugging the occasional mysterious bug! ☕
+I'm a passionate **Fullstack Developer** with **6+ years** of experience crafting secure, scalable, and high-performance enterprise applications. When I'm not coding, you'll find me exploring new technologies, mentoring fellow developers, or enjoying a good cup of coffee while debugging the occasional mysterious bug! ☕
 
 > *"Writing clean, scalable code isn't just my job—it's my passion. Every line of code is an opportunity to create something amazing."*
 
@@ -61,7 +61,7 @@ I'm a passionate **Fullstack Developer** with **5+ years** of experience craftin
 - 🎯 **Problem Solver**: I genuinely enjoy debugging complex issues (yes, really!)
 - 🌱 **Continuous Learner**: Always exploring new technologies and best practices
 - 🤝 **Team Player**: Love collaborating with diverse teams in Agile environments
-- 🌍 **Remote Work Expert**: 5+ years of successful remote collaboration experience
+- 🌍 **Remote Work Expert**: 6+ years of successful remote collaboration experience
 - ☕ **Coffee Enthusiast**: Powered by caffeine and clean code
 
 ## 🤝 Let's Connect!

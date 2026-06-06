@@ -21,7 +21,7 @@ export class SeoService {
   }): void {
     const {
       title = 'Mordecai Godwin - Fullstack Developer | Angular, .NET, Cloud Solutions',
-      description = 'Experienced Fullstack Developer with 5+ years delivering secure, scalable enterprise applications. Specializing in Angular, .NET, Azure, and modern web technologies.',
+      description = 'Experienced Fullstack Developer with 6+ years delivering secure, scalable enterprise applications. Specializing in Angular, .NET, Azure, and modern web technologies.',
       keywords = 'Fullstack Developer, Angular Developer, .NET Developer, Web Developer, Software Engineer, Azure, TypeScript, C#, JavaScript, Nigeria, Lagos, Remote Developer',
       image = this.defaultImage,
       url = this.baseUrl,
@@ -58,13 +58,13 @@ export class SeoService {
       home: {
         title: 'Mordecai Godwin - Fullstack Developer | Angular, .NET, Cloud Solutions',
         description:
-          'Experienced Fullstack Developer with 5+ years delivering secure, scalable enterprise applications. Specializing in Angular, .NET, Azure, and modern web technologies.',
+          'Experienced Fullstack Developer with 6+ years delivering secure, scalable enterprise applications. Specializing in Angular, .NET, Azure, and modern web technologies.',
         url: this.baseUrl
       },
       about: {
         title: 'About Mordecai Godwin - Fullstack Developer | Tech Stack & Experience',
         description:
-          "Learn about Mordecai Godwin's 5+ years of fullstack development experience, technical skills in Angular, .NET, Azure, and professional background.",
+          "Learn about Mordecai Godwin's 6+ years of fullstack development experience, technical skills in Angular, .NET, Azure, and professional background.",
         url: `${this.baseUrl}#about`
       },
       experience: {
